@@ -2625,3 +2625,170 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat
 [2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating World /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse
 [2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData
+[2022.10.05-19.51.04:835][922]LogEditorFactories: Performing atomic reimport of [C:/Users/CJCBa/Downloads/tenpennyrugs01_n.png]
+[2022.10.05-19.51.04:841][922]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/CJCBa/Downloads/tenpennyrugs01_n.png)
+[2022.10.05-19.51.04:890][922]LogEditorFactories: -- imported successfully
+[2022.10.05-19.51.04:923][922]LogTexture: Display: Building textures: /Game/FNV/textures/clutter/questitems/tenpennyrugs01_n.tenpennyrugs01_n (TFO_BC5, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.05-19.51.04:931][922]LogEditorFactories: Performing atomic reimport of [C:/Users/CJCBa/Downloads/tenpennyrugs01.png]
+[2022.10.05-19.51.04:937][922]LogFactory: FactoryCreateFile: Texture2D with ReimportTextureFactory (0 0 C:/Users/CJCBa/Downloads/tenpennyrugs01.png)
+[2022.10.05-19.51.04:972][922]LogEditorFactories: -- imported successfully
+[2022.10.05-19.51.04:992][922]LogTexture: Display: Building textures: /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 20.000 MB), EncodeSpeed: Fast
+[2022.10.05-19.51.37:641][605]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01
+[2022.10.05-19.51.37:642][605]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.51.37:700][605]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.51.39:085][763]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.51.40:225][894]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.10.05-19.51.42:462][894]LogSlate: Window 'Save Content' being destroyed
+[2022.10.05-19.51.52:652][708]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-19.51.52:657][708]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5CF0C36560CFD3F3B3BA7313AC636204905D5F27), compiling. 
+[2022.10.05-19.51.52:699][708]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Total job queries 793, among them cache hits 395 (49.81%)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Tracking 278 distinct input hashes that result in 137 distinct outputs (49.28%)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: RAM used: 0.56 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Shaders Compiled: 168
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Jobs assigned 278, completed 278 (100.00%)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Average time worker was idle: 217.62 s
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Time job spent in pending queue: average 4.11 s, longest 31.07 s
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Job execution time: average 6.15 s, max 24.92 s
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Job life time (pending + execution): average 10.25 s, max 42.59
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 283.22 s
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Jobs were issued in 242 batches (only local compilation was used), average 1.15 jobs/batch
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Average processing rate: 0.98 jobs/sec
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Effective parallelization: 4.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 17.13 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 17.07 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 16.89 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 16.63 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 14.34 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.95% of total time (compiled   61 times, average 2.34 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.83% of total time (compiled   28 times, average 4.20 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.04% of total time (compiled   37 times, average 2.92 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.72% of total time (compiled    4 times, average 17.13 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.70% of total time (compiled    4 times, average 17.07 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.51.52:703][708]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.51.52:774][708]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7ADE61335FBD025D288A31060F2BC108A6DAF9FF), compiling. 
+[2022.10.05-19.51.52:780][708]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0C2775E6EE3543EA58E53B01EE301D044A339853), compiling. 
+[2022.10.05-19.51.52:784][708]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 19A644B4F0EF5685A122C76D2D45790DE297416D), compiling. 
+[2022.10.05-19.51.52:786][708]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1BF3E5AFCAEA868326F3543F4C64840BCAF12B81), compiling. 
+[2022.10.05-19.51.52:807][708]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.51.52:807][708]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.51.52:807][708]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.51.52:807][708]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.51.52:810][708]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.51.52:898][710]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.51.52:898][710]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.51.52:899][710]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.51.52:899][710]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.52.00:664][608]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: BA93CC96F1EA2EECBFA0B08A93AE1A93A4F78B55), compiling. 
+[2022.10.05-19.52.00:670][608]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.52.00:670][608]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.00:670][608]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.00:670][608]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.52.00:708][610]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.52.00:708][610]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.00:708][610]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.00:708][610]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.52.05:121][126]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D0EDDA622369B337E96D4CC7FDD1622D98304E6F), compiling. 
+[2022.10.05-19.52.05:128][126]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7D98FF4E1F57B8AF860879F2E80B62C37C941B39), compiling. 
+[2022.10.05-19.52.05:131][126]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.52.05:131][126]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.05:131][126]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.05:132][126]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.52.05:174][128]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.52.05:174][128]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.05:174][128]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.05:174][128]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.52.05:731][191]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8B129AB3466A27033B95B89F00F668F616850ED9), compiling. 
+[2022.10.05-19.52.05:736][191]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.52.05:736][191]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.05:736][191]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.05:736][191]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.52.07:180][268]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.52.07:180][268]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.07:180][268]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.07:180][268]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.52.10:061][368]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.52.10:061][368]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.10:061][368]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.10:061][368]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.52.12:548][588]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-19.52.12:548][588]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.12:548][588]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.12:548][588]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.52.15:421][905]LogMaterialEditor: Applying material tenpennyrugs01_Mat
+[2022.10.05-19.52.16:102][905]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: EC1C37E331B67CCE144ABC238B346A3CF39B6621), compiling. 
+[2022.10.05-19.52.16:123][905]LogMaterial: Display: Missing cached shadermap for tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9A7CAF1A7D9883397F36E7610F4D048B97F4DACC), compiling. 
+[2022.10.05-19.52.16:224][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2022.10.05-19.52.17:905][905]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.10.05-19.52.17:928][905]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.52.17:928][905]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.52.17:928][905]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.52.17:928][905]MaterialEditorStats: Shader Count: 8
+[2022.10.05-19.52.18:636][958]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.52.18:636][958]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.52.45:156][ 97]LogDerivedDataCache: C:/Users/CJCBa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:04.635 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.05-19.53.19:825][ 92]Cmd: TRANSACTION UNDO
+[2022.10.05-19.53.19:826][ 92]LogEditorTransaction: Undo Actor Movement
+[2022.10.05-19.54.48:550][933]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01
+[2022.10.05-19.54.48:550][933]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.54.48:602][933]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.54.54:939][644]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.10.05-19.54.56:603][644]LogSlate: Window 'Save Content' being destroyed
+[2022.10.05-19.54.59:387][898]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.54.59:387][898]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.55.01:420][ 40]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.55.01:420][ 40]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.55.15:638][406]LogEditorViewport: Clicking Background
+[2022.10.05-19.55.18:768][758]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.10.05-19.55.18:837][758]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse
+[2022.10.05-19.55.18:838][758]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse22876B5D4DA804548B2025AFF947F095.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.umap'
+[2022.10.05-19.55.18:853][758]LogFileHelpers: No new changes to save!
+[2022.10.05-19.55.18:865][758]AssetCheck: New page: Asset Save: GSDocMitchellHouse
+[2022.10.05-19.55.18:865][758]LogContentValidation: Display: Validating World /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse
+[2022.10.05-19.55.21:839][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.10.05-19.55.24:095][ 75]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-19.55.43:098][ 75]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001020s (19.115377s overbudget)
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Total job queries 904, among them cache hits 462 (51.11%)
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Tracking 322 distinct input hashes that result in 151 distinct outputs (46.89%)
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: RAM used: 0.63 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Shaders Compiled: 168
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Jobs assigned 322, completed 322 (100.00%)
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Average time worker was idle: 198.48 s
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Time job spent in pending queue: average 4.29 s, longest 31.07 s
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Job execution time: average 5.94 s, max 24.92 s
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Job life time (pending + execution): average 10.23 s, max 42.59
+[2022.10.05-19.55.43:110][ 75]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 319.26 s
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: Jobs were issued in 286 batches (only local compilation was used), average 1.13 jobs/batch
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: Average processing rate: 1.01 jobs/sec
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: Effective parallelization: 4.31 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 16.40 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 16.32 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 15.99 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    5 times, average 15.98 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 13.74 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.66% of total time (compiled   62 times, average 2.37 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.00% of total time (compiled   29 times, average 4.27 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.79% of total time (compiled   38 times, average 3.18 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.95% of total time (compiled    5 times, average 16.40 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.92% of total time (compiled    5 times, average 16.32 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.55.43:111][ 75]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.55.43:131][ 75]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat
+[2022.10.05-19.55.43:132][ 75]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/tenpennyrugs01_Mat82B85D4340CCE4E33AEDE7AA80B4ECF9.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.uasset'
+[2022.10.05-19.55.43:371][ 75]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/questitems/tenpennyrugs01
+[2022.10.05-19.55.43:372][ 75]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/tenpennyrugs01E0A2907744E31D353DB54890B3DF15C0.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/questitems/tenpennyrugs01.uasset'
+[2022.10.05-19.55.43:522][ 75]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/questitems/tenpennyrugs01_n
+[2022.10.05-19.55.43:523][ 75]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/tenpennyrugs01_n2D29FC6C4E8EFA29B293F99440E1104D.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/questitems/tenpennyrugs01_n.uasset'
+[2022.10.05-19.55.43:540][ 75]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01_n.tenpennyrugs01_n
+[2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01

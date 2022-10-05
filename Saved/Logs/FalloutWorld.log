@@ -1278,3 +1278,1350 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.05-19.07.34:658][516]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/nvcraftsmanhomes_interiorfloor_1FCD20E2D4A039A74CE6964B3212B7D75.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorfloor_1_Mat.uasset'
 [2022.10.05-19.07.34:671][516]AssetCheck: New page: Asset Save: nvcraftsmanhomes_interiorfloor_1_Mat
 [2022.10.05-19.07.34:671][516]LogContentValidation: Display: Validating Material /Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorfloor_1_Mat.nvcraftsmanhomes_interiorfloor_1_Mat
+[2022.10.05-19.14.49:667][847]LogContentBrowser: Deferred new asset file creation: NewMaterial
+[2022.10.05-19.14.49:673][847]LogContentBrowser: Creating deferred item: NewMaterial
+[2022.10.05-19.14.49:682][848]LogContentBrowser: Renaming the item being created (Deferred Item: NewMaterial).
+[2022.10.05-19.15.04:891][672]LogContentBrowser: Attempting asset rename: NewMaterial -> Master_Mat
+[2022.10.05-19.15.04:909][672]LogContentBrowser: End creating deferred item NewMaterial
+[2022.10.05-19.15.08:833][133]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/Master_Mat.Master_Mat
+[2022.10.05-19.15.08:835][133]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D0B08D929E51B872FD04E5B722F077F2E2407755), compiling. 
+[2022.10.05-19.15.08:862][133]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.15.08:955][133]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6EFB3DBF812B51489601F66A8F2CB60639D1B136), compiling. 
+[2022.10.05-19.15.08:959][133]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C08D50B7066077CA3AF49152642400658839B2DB), compiling. 
+[2022.10.05-19.15.08:982][133]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.15.08:982][133]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.15.08:982][133]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.15.08:990][133]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: Total job queries 214, among them cache hits 125 (58.41%)
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: Tracking 54 distinct input hashes that result in 33 distinct outputs (61.11%)
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: RAM used: 0.15 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: Shaders Compiled: 41
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: Jobs assigned 55, completed 54 (98.18%)
+[2022.10.05-19.15.10:705][251]LogShaderCompilers: Display: Average time worker was idle: 313.92 s
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Time job spent in pending queue: average 1.21 s, longest 10.78 s
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Job execution time: average 4.08 s, max 10.82 s
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Job life time (pending + execution): average 5.31 s, max 15.46
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 67.40 s
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Jobs were issued in 55 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Average processing rate: 0.80 jobs/sec
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Effective parallelization: 3.06 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.24 sec, max 10.24 sec, min 10.24 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.19 sec, max 10.19 sec, min 10.19 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 10.12 sec, max 10.12 sec, min 10.12 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 18.05% of total time (compiled   10 times, average 3.72 sec, max 5.93 sec, min 2.70 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.11% of total time (compiled   14 times, average 1.78 sec, max 3.61 sec, min 1.12 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.07% of total time (compiled    4 times, average 4.16 sec, max 9.89 sec, min 0.90 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.04% of total time (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.99% of total time (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.15.10:706][251]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.15.10:718][252]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.15.10:718][252]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.15.10:718][252]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.15.13:837][463]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-19.15.13:837][463]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.15.13:837][463]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.15.21:225][154]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: DA60C3AAFFC8042A9B55702EB6E5FA61621CE61B), compiling. 
+[2022.10.05-19.15.21:228][154]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3056381E29843C94B78BF629869562D72932E2A9), compiling. 
+[2022.10.05-19.15.21:232][154]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.15.21:232][154]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.15.21:232][154]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.15.21:299][156]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-19.15.21:299][156]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.15.21:299][156]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.16.21:041][ 70]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 027E4C811986E7FDD85FC2EFB10F505385AE596F), compiling. 
+[2022.10.05-19.16.21:047][ 70]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.16.21:047][ 70]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.16.21:047][ 70]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.16.21:089][ 72]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-19.16.21:089][ 72]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.16.21:089][ 72]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.16.27:616][728]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F9262CD0B79349E467693110FF398ECD43498A2C), compiling. 
+[2022.10.05-19.16.27:621][728]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.16.27:621][728]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.16.27:621][728]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.16.29:304][838]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.16.29:304][838]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2022.10.05-19.16.29:304][838]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.16.30:147][897]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: DE3273FE6F7DD901070230F63F00C206618F2BC2), compiling. 
+[2022.10.05-19.16.30:148][897]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.10.05-19.16.30:149][897]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D47577FAF403D595241E89B93DBB9E71BB3BAEC8), compiling. 
+[2022.10.05-19.16.30:152][897]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2022.10.05-19.16.36:081][382]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F772BB459581020206FC66F946AFD07AFF12FD16), compiling. 
+[2022.10.05-19.16.36:081][382]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSample) Texture Sample> Missing input texture
+
+[2022.10.05-19.16.36:082][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B0E1FE0F4F06E2B035EAA72C2900715247CC3258), compiling. 
+[2022.10.05-19.16.36:085][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 09E644A3670EA474EAAD78AD927AF80A7BA457A4), compiling. 
+[2022.10.05-19.16.36:094][382]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 66FBED1B1F26C6458AC2B7D2DE1E3485DBB54763), compiling. 
+[2022.10.05-19.16.36:095][382]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.16.36:096][382]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B6B54BF093E37D48A638269ACB3976FDFFAC53AF), compiling. 
+[2022.10.05-19.16.36:109][382]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2022.10.05-19.16.57:207][431]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7E554675684DBF22307B81B01F1C1997292C6233), compiling. 
+[2022.10.05-19.16.57:207][431]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.16.57:208][431]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E682B7C02DA264C35168E9200E96DE73B62D95FC), compiling. 
+[2022.10.05-19.17.06:561][348]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F7DCD103CF874161AEC6B236D4CFEDFC3CDD3246), compiling. 
+[2022.10.05-19.17.06:562][348]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.06:563][348]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 8D509B7F27FEB82DFD2DD80DF5E0EFB14D77BD3E), compiling. 
+[2022.10.05-19.17.10:285][681]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9190A10CC81E9E7E067E3EA70B749B85386720E5), compiling. 
+[2022.10.05-19.17.10:286][681]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.10:287][681]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: D89B65B0626174BBA6BC5B126B6B565B684050AD), compiling. 
+[2022.10.05-19.17.13:938][992]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B985DC3D9A4BC1E79AA2FE260DD36D1BF4C4D3C9), compiling. 
+[2022.10.05-19.17.13:939][992]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.13:940][992]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5FE41E3C787C15D172BFBAC80826C42E9CAB8925), compiling. 
+[2022.10.05-19.17.40:336][280]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6C72FF1487EB3FDAF59E655122F60F67D95D3EE7), compiling. 
+[2022.10.05-19.17.40:337][280]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.40:338][280]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: E840292EDA68165E77895AC8E4F0057AC331696C), compiling. 
+[2022.10.05-19.17.40:341][280]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: D828F3FF2549F9F17C871C4A03143406A03D61BE), compiling. 
+[2022.10.05-19.17.40:350][280]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 39BF215466817D961078BC8AAC3D02D3C8CD5F93), compiling. 
+[2022.10.05-19.17.40:351][280]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.59:889][ 26]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F088E7793730E741D829B10FBFF1B21D73E375D6), compiling. 
+[2022.10.05-19.17.59:890][ 26]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.17.59:891][ 26]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 85D02F3D6A638BEE031D406962FBFF3F41FBB7DC), compiling. 
+[2022.10.05-19.17.59:892][ 26]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BCB28C6EC62832922988CD3E0058C8BD4E5F6D2D), compiling. 
+[2022.10.05-19.17.59:894][ 26]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: AEEA4413E19A49C77689FBF8FBE6A6DEEBA43CB1), compiling. 
+[2022.10.05-19.17.59:904][ 26]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C1BE57A966297C554446C3AB377F5D83CA1323C2), compiling. 
+[2022.10.05-19.17.59:905][ 26]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.14:653][379]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 050F9F1E1D493074E7DCB23C72D21634BB3BE9D9), compiling. 
+[2022.10.05-19.18.14:654][379]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.14:655][379]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 750142FDE826097C137A7FF77BCFD85417748552), compiling. 
+[2022.10.05-19.18.14:656][379]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5914AED06DA0EA38C0347D9F2DF4C35675052D2F), compiling. 
+[2022.10.05-19.18.14:658][379]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: CF389BB7C2C1FF949EA96F298E8AEC0785BFF8A3), compiling. 
+[2022.10.05-19.18.14:668][379]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E1BB281230E94938097A07B4EE5E6AA776A3248A), compiling. 
+[2022.10.05-19.18.14:669][379]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.26:595][537]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9ADE625DCC0B7B27348AD692BE4D4276A4599700), compiling. 
+[2022.10.05-19.18.26:595][537]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.26:596][537]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 113851E6320837FFB14F45F53F5F02B54D9C738A), compiling. 
+[2022.10.05-19.18.35:922][471]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 13D8156CB5C3333A3166CA4F3BF8BBDB8C4AC1D0), compiling. 
+[2022.10.05-19.18.35:923][471]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.38:313][688]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C39D27AE87F13F32151ABB1B761123479ED83C77), compiling. 
+[2022.10.05-19.18.38:314][688]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.38:324][688]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 907943D73C4437174B47EF436A22A0CA0F9809D9), compiling. 
+[2022.10.05-19.18.38:325][688]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.51:164][915]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 14CDA3ADE33055C34219D0DAACF0D387F3B78524), compiling. 
+[2022.10.05-19.18.51:164][915]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.59:427][701]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 4B08816E35C357AF4D57E1523E2E90F0BE0C2420), compiling. 
+[2022.10.05-19.18.59:428][701]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.18.59:429][701]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 796F09F9402E0480851CC9C2D7386174F89C6C29), compiling. 
+[2022.10.05-19.19.03:292][ 59]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 571661405828B412A7534DC1D73899DCF563923B), compiling. 
+[2022.10.05-19.19.03:293][ 59]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.16:671][242]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8CA7FBAC1C08FF0CCE7649B4A776C41C10270134), compiling. 
+[2022.10.05-19.19.16:672][242]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.23:089][795]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 596250FF4E1343E796DE77749055EF81C3A3FC01), compiling. 
+[2022.10.05-19.19.23:089][795]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.23:100][795]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: BE9A9E350393482A7B74AEDA51FC3D662FD837B4), compiling. 
+[2022.10.05-19.19.23:100][795]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.40:270][316]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 25F96E421882BFF796C41891CB06C991735D5D37), compiling. 
+[2022.10.05-19.19.40:271][316]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.44:087][652]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B99BE1978FACD9A51E40A37435D1ABC0D82FE295), compiling. 
+[2022.10.05-19.19.44:089][652]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.44:090][652]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 7B7179F9A5555C0440E2F7C1EC2B2277CEAE7606), compiling. 
+[2022.10.05-19.19.45:743][792]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ECB63C3E35755A1898DC379DFA533C5E45FE1477), compiling. 
+[2022.10.05-19.19.45:743][792]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.19.53:677][502]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B0EFD3573908B9D71FFE444DB2FDA6D9FAF1DE89), compiling. 
+[2022.10.05-19.19.53:678][502]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.12:433][224]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5B9B7130882FB6668FA03A5BD6668A2A36C0B769), compiling. 
+[2022.10.05-19.20.12:433][224]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.21:454][ 32]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 90D09B7F32AFC99045283B5621CBD80AB52D846C), compiling. 
+[2022.10.05-19.20.21:455][ 32]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.28:611][637]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5263F7BAABA2F305A901D5A5E26DC245868AE22D), compiling. 
+[2022.10.05-19.20.28:612][637]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.49:590][571]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5EBEF40CD138D5038E6275C946E0409B32AE523F), compiling. 
+[2022.10.05-19.20.49:591][571]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.51:182][709]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 26DD6373E03DBCA73DB3A5AA418A87361F2F2CFE), compiling. 
+[2022.10.05-19.20.51:183][709]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.52:538][828]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 975E178EF9F7840E56918EFAB1BD7323536432D4), compiling. 
+[2022.10.05-19.20.52:538][828]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.20.52:540][828]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 8263811466ACF4AE2400A5B4E4F6FD98DE221432), compiling. 
+[2022.10.05-19.21.07:619][146]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 33A8C499EF8D87EDBCFEEDA2CEE92593F0E833FC), compiling. 
+[2022.10.05-19.21.07:620][146]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.14:040][508]LogMaterialEditor: Applying material Master_Mat
+[2022.10.05-19.21.17:995][508]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2022.10.05-19.21.18:668][508]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FC5214CD020F750F66EAD4F9F1D8819A58F1F669), compiling. 
+[2022.10.05-19.21.18:668][508]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.18:680][508]LogMaterial: Display: Missing cached shadermap for Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B1C37FAFE37D2AE528C20413FAC187DC71856AA7), compiling. 
+[2022.10.05-19.21.18:681][508]LogMaterial: Warning: [AssetLog] /Game/FNV/textures/Master_Mat.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.18:696][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2022.10.05-19.21.18:746][508]LogUObjectHash: Compacting FUObjectHashTables data took   0.32ms
+[2022.10.05-19.21.19:853][573]LogMaterialEditor: Saving and Compiling material Master_Mat
+[2022.10.05-19.21.19:893][573]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/textures/Master_Mat" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/Master_Mat.uasset" SILENT=true
+[2022.10.05-19.21.19:897][573]LogSavePackage: Moving output files for package: /Game/FNV/textures/Master_Mat
+[2022.10.05-19.21.19:898][573]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Master_MatB9B3AB9648C609D358EC0DB34AB8E5C9.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/Master_Mat.uasset'
+[2022.10.05-19.21.19:910][573]AssetCheck: New page: Asset Save: Master_Mat
+[2022.10.05-19.21.19:910][573]LogContentValidation: Display: Validating Material /Game/FNV/textures/Master_Mat.Master_Mat
+[2022.10.05-19.21.27:801][883]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 049136FC2235990938E68AD13F0F2DF6FB3A7CD9), compiling. 
+[2022.10.05-19.21.27:801][883]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.27:802][883]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: FFB3659F933598C708E06BF1E70E2024B91698C8), compiling. 
+[2022.10.05-19.21.29:587][ 21]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B70CD50C6CC0D3A89B172B78A852E8CADBD2F427), compiling. 
+[2022.10.05-19.21.29:587][ 21]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.29:588][ 21]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 496B578BDB3F4EE6816C9F15BA0FBC7280519788), compiling. 
+[2022.10.05-19.21.31:844][189]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 252C8D90253E174CED8BD2E832F5B7E7997EC764), compiling. 
+[2022.10.05-19.21.31:845][189]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.31:846][189]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 242C0913DEBA6D68FC2C88DB6B3C7374DFF83A6D), compiling. 
+[2022.10.05-19.21.33:902][350]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 77C66D5D2C33BDD80F719D8B1FD58734D430B93C), compiling. 
+[2022.10.05-19.21.33:903][350]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.33:904][350]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 8B126E544C1731AC79847F6CBD0132E07D6C52F2), compiling. 
+[2022.10.05-19.21.59:698][882]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9EA9B9F310DB8EC13DB6FD35AE8FE55B896239A4), compiling. 
+[2022.10.05-19.21.59:699][882]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.21.59:700][882]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 257F8D6F499853F5A549A99FF45EB5B17173B8A3), compiling. 
+[2022.10.05-19.22.01:062][966]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.22.01:062][966]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.22.01:062][966]LogShaderCompilers: Display: Total job queries 229, among them cache hits 136 (59.39%)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Tracking 58 distinct input hashes that result in 35 distinct outputs (60.34%)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: RAM used: 0.16 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Shaders Compiled: 43
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Jobs assigned 59, completed 58 (98.31%)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Average time worker was idle: 305.16 s
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Time job spent in pending queue: average 1.12 s, longest 10.78 s
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Job execution time: average 4.01 s, max 10.82 s
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Job life time (pending + execution): average 5.16 s, max 15.46
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 76.46 s
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Jobs were issued in 59 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Average processing rate: 0.76 jobs/sec
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Effective parallelization: 2.84 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.24 sec, max 10.24 sec, min 10.24 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.19 sec, max 10.19 sec, min 10.19 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 10.12 sec, max 10.12 sec, min 10.12 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 21.12% of total time (compiled   12 times, average 3.82 sec, max 5.93 sec, min 2.70 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.12% of total time (compiled   15 times, average 1.76 sec, max 3.61 sec, min 1.12 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.11% of total time (compiled    5 times, average 3.52 sec, max 9.89 sec, min 0.90 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.78% of total time (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.74% of total time (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.22.01:063][966]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.22.10:074][806]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: AD46E45769E794FF8E1B0AEDC65DD35B290C0615), compiling. 
+[2022.10.05-19.22.10:074][806]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.10:075][806]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: E3252B9C78CD91FCCF676E20D8F16CEEA47ABF5A), compiling. 
+[2022.10.05-19.22.24:507][817]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6F34F569941742E210A0C3C2726751316485672E), compiling. 
+[2022.10.05-19.22.24:508][817]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.24:509][817]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: F0444B7FBDDCF79A01E1DB1B1C2A1B3D7607295B), compiling. 
+[2022.10.05-19.22.26:583][991]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F1145A972BA8CE3DC9EA530533B294324028FBF8), compiling. 
+[2022.10.05-19.22.26:584][991]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.26:585][991]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1CCDA13A589685E76FEA355C391EA77CD5A2221A), compiling. 
+[2022.10.05-19.22.29:877][287]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D1F679724CCF85CFFEA22184C10715EC09AF21C6), compiling. 
+[2022.10.05-19.22.29:877][287]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.29:878][287]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 1AC7A7E4CEC915B2D8124DA35C355070143A246C), compiling. 
+[2022.10.05-19.22.29:882][287]LogSlate: Window 'Color Picker' being destroyed
+[2022.10.05-19.22.33:788][601]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: A8B63785645E44C2492AC115CD4B119656708338), compiling. 
+[2022.10.05-19.22.33:788][601]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.33:789][601]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3E98A725F1B9BCC9316A5B9F4822B5A008650022), compiling. 
+[2022.10.05-19.22.37:467][916]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F4F4DBDB05B4CD2C384B0ABB84EAF8B876329DFD), compiling. 
+[2022.10.05-19.22.37:468][916]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.37:469][916]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: AC1B8CFCD0D4F36ADC450F007FDD6CCB3327DE5E), compiling. 
+[2022.10.05-19.22.38:176][977]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B5654A3E68D5249F900CEBABC2E5355BDED39921), compiling. 
+[2022.10.05-19.22.38:177][977]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.22.38:178][977]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 8C596A0AE407618DEC5326A83ABF4DD1CC58DCF1), compiling. 
+[2022.10.05-19.22.38:181][977]LogSlate: Window 'Color Picker' being destroyed
+[2022.10.05-19.23.21:469][275]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 77C48684F4F989526D160E3801D664D5DB75305A), compiling. 
+[2022.10.05-19.23.21:470][275]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.23.24:678][512]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D31E031F5FC14D6B3AD12E9B4CD1435481951CC3), compiling. 
+[2022.10.05-19.23.24:679][512]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.23.46:365][294]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: AA1619ED9FE945B5AE7752F71E497F399DCA4B93), compiling. 
+[2022.10.05-19.23.46:366][294]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.23.48:967][490]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6BFBDC70EE1E8D4461611C0A3CFF4F16BA8693ED), compiling. 
+[2022.10.05-19.23.48:968][490]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.23.48:979][490]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 60F9682FCD78DC5615A18DECAE3E61FD3643B8C7), compiling. 
+[2022.10.05-19.23.48:980][490]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.23.54:801][976]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 12B7A88FF52BD5A672846BC908D3DB9AE0F95E78), compiling. 
+[2022.10.05-19.23.54:802][976]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.24.18:911][611]LogMaterialEditor: Applying material Master_Mat
+[2022.10.05-19.24.20:764][611]LogSlate: Window 'Warning: Compilation errors in this Material' being destroyed
+[2022.10.05-19.24.21:395][611]LogMaterial: Display: Missing cached shadermap for Preview:Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: A759E2DC24197F6ABF185AF4E211847D37843CD9), compiling. 
+[2022.10.05-19.24.21:396][611]LogMaterial: Warning: [AssetLog] /Engine/Transient.Master_Mat (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.24.21:408][611]LogMaterial: Display: Missing cached shadermap for Master_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 2B85C72CC9E9B215A44945C0F07CAB6CBBE7E4A6), compiling. 
+[2022.10.05-19.24.21:409][611]LogMaterial: Warning: [AssetLog] C:\Users\CJCBa\Documents\Unreal Projects\FalloutWorld\Content\FNV\textures\Master_Mat.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.24.21:422][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2022.10.05-19.24.21:461][611]LogUObjectHash: Compacting FUObjectHashTables data took   0.31ms
+[2022.10.05-19.24.22:817][689]LogMaterialEditor: Saving and Compiling material Master_Mat
+[2022.10.05-19.24.22:859][689]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/textures/Master_Mat" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/Master_Mat.uasset" SILENT=true
+[2022.10.05-19.24.22:864][689]LogSavePackage: Moving output files for package: /Game/FNV/textures/Master_Mat
+[2022.10.05-19.24.22:865][689]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Master_Mat30A970E143ACB746BE369BB5B3A46431.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/Master_Mat.uasset'
+[2022.10.05-19.24.22:878][689]AssetCheck: New page: Asset Save: Master_Mat
+[2022.10.05-19.24.22:878][689]LogContentValidation: Display: Validating Material /Game/FNV/textures/Master_Mat.Master_Mat
+[2022.10.05-19.24.23:784][746]LogSlate: Window 'Master_Mat' being destroyed
+[2022.10.05-19.24.23:791][746]LogSlate: Window 'Master_Mat' being destroyed
+[2022.10.05-19.24.23:807][746]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.24.23:808][746]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.24.50:354][565]LogContentBrowser: Deferred new asset file creation: Master_Mat_Inst
+[2022.10.05-19.24.50:369][565]LogContentBrowser: Creating deferred item: Master_Mat_Inst
+[2022.10.05-19.24.50:383][566]LogContentBrowser: Renaming the item being created (Deferred Item: Master_Mat_Inst).
+[2022.10.05-19.24.51:911][749]LogContentBrowser: Attempting asset rename: Master_Mat_Inst -> Master_Mat_Inst
+[2022.10.05-19.24.51:912][749]LogContentBrowser: End creating deferred item Master_Mat_Inst
+[2022.10.05-19.24.53:242][897]LogAssetEditorSubsystem: Opening Asset editor for MaterialInstanceConstant /Game/FNV/textures/Master_Mat_Inst.Master_Mat_Inst
+[2022.10.05-19.24.53:245][897]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.24.53:521][897]LogViewport: Scene viewport resized to 1335x902, mode Windowed.
+[2022.10.05-19.24.53:564][897]LogSlate: Took 0.000422 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2022.10.05-19.25.46:058][ 13]LogSlate: Window 'Master_Mat_Inst' being destroyed
+[2022.10.05-19.25.46:066][ 13]LogSlate: Window 'Master_Mat_Inst' being destroyed
+[2022.10.05-19.25.46:077][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.10.05-19.25.46:127][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   0.70ms
+[2022.10.05-19.25.46:175][ 13]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.25.46:175][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.25.47:061][101]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/Master_Mat.Master_Mat
+[2022.10.05-19.25.47:063][101]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FCA48F88E77986F36577959381DA5D3D523EB084), compiling. 
+[2022.10.05-19.25.47:064][101]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.25.47:067][101]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.25.47:197][101]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1FA747519EE727CFC0B8DA06A0D8D8544DA84245), compiling. 
+[2022.10.05-19.25.47:199][101]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.25.47:201][101]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 71549CBDBD78194FC8BF01CA6965DD13B6B7991A), compiling. 
+[2022.10.05-19.25.47:202][101]LogMaterial: Warning: [AssetLog] /Engine/Transient.PreviewMaterial_1 (no disk path found): Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+	(Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+
+[2022.10.05-19.25.47:204][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 2571B6144628283D83730199D2A094E5E4C23C96), compiling. 
+[2022.10.05-19.25.47:205][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5CAA15D5DF6BC55793FA2B5F57705E8544F2C78F), compiling. 
+[2022.10.05-19.25.47:207][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 57B8DC3756DF8948D68675AE05AC4D9A59E33EE1), compiling. 
+[2022.10.05-19.25.47:208][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSampleParameter2D_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 0045C136500557743FCCA9C5CBBDC93F971C9956), compiling. 
+[2022.10.05-19.25.47:209][101]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionVectorParameter_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C5F7FDD7DAD07376F5B91ABDA83AC3AE80924824), compiling. 
+[2022.10.05-19.25.47:236][101]MaterialEditorStats: Error: [SM5] (Node TextureSampleParameter2D) Param2D> Found NULL, requires Texture2D
+[2022.10.05-19.25.47:245][101]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Total job queries 245, among them cache hits 152 (62.04%)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Tracking 59 distinct input hashes that result in 36 distinct outputs (61.02%)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: RAM used: 0.16 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Shaders Compiled: 43
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Jobs assigned 59, completed 59 (100.00%)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Average time worker was idle: 305.16 s
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Time job spent in pending queue: average 1.12 s, longest 10.78 s
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Job execution time: average 3.97 s, max 10.82 s
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Job life time (pending + execution): average 5.09 s, max 15.46
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 76.56 s
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Jobs were issued in 59 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Average processing rate: 0.77 jobs/sec
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Effective parallelization: 2.85 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.24 sec, max 10.24 sec, min 10.24 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.19 sec, max 10.19 sec, min 10.19 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 10.12 sec, max 10.12 sec, min 10.12 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 21.02% of total time (compiled   12 times, average 3.82 sec, max 5.93 sec, min 2.70 sec)
+[2022.10.05-19.25.47:457][108]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 12.54% of total time (compiled   16 times, average 1.71 sec, max 3.61 sec, min 1.03 sec)
+[2022.10.05-19.25.47:458][108]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.07% of total time (compiled    5 times, average 3.52 sec, max 9.89 sec, min 0.90 sec)
+[2022.10.05-19.25.47:458][108]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.76% of total time (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.25.47:458][108]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.71% of total time (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.25.47:458][108]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.26.53:980][ 85]LogSlate: Window 'Master_Mat' being destroyed
+[2022.10.05-19.26.53:986][ 85]LogSlate: Window 'Master_Mat' being destroyed
+[2022.10.05-19.26.54:023][ 85]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.26.54:023][ 85]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.26.56:911][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.10.05-19.26.58:058][381]LogSlate: Window 'Delete Assets' being destroyed
+[2022.10.05-19.26.58:078][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.75ms
+[2022.10.05-19.26.58:088][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.10.05-19.26.58:098][381]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.10.05-19.28.34:585][841]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat
+[2022.10.05-19.28.34:588][841]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5CC021DD47A116EE8D34DB4E3AA9BDDFDB443F4C), compiling. 
+[2022.10.05-19.28.34:641][841]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.28.34:707][841]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 90140888A4378E58D9A258197BDFB9D71FF7CAE5), compiling. 
+[2022.10.05-19.28.34:711][841]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 49D98CF13F4CF7BDA613B2BD9FB9222DE1274703), compiling. 
+[2022.10.05-19.28.34:714][841]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 592B60B9EB0F394282E69A09E0512F696227AD95), compiling. 
+[2022.10.05-19.28.34:716][841]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: BB7C844065C6E3B7F4BE46FA58D93A8751B0873C), compiling. 
+[2022.10.05-19.28.34:718][841]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 383F2F4746FCD18BF4CE112EC707827CCA588A72), compiling. 
+[2022.10.05-19.28.34:748][841]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.28.34:748][841]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.28.34:748][841]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.28.34:748][841]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.28.34:752][841]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.28.37:769][ 15]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.28.37:769][ 15]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.28.37:769][ 15]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.28.37:769][ 15]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.28.39:483][172]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.28.39:483][172]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.28.39:483][172]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.28.39:483][172]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.29.14:183][268]LogWindowsTextInputMethodSystem: Activated input method: Japanese (Japan) - (Keyboard).
+[2022.10.05-19.29.14:184][268]LogWindowsTextInputMethodSystem: Activated input method: Japanese (Japan) - Microsoft IME (TSF IME).
+[2022.10.05-19.29.15:415][409]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.10.05-19.29.15:415][409]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.10.05-19.29.29:450][ 80]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F0E47A06E8ABC67D2258CC0E8321BCA45B9AE235), compiling. 
+[2022.10.05-19.29.29:462][ 80]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.29.29:462][ 80]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.29:462][ 80]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.29:462][ 80]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Total job queries 273, among them cache hits 162 (59.34%)
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 38 distinct outputs (58.46%)
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Shaders Compiled: 57
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Jobs assigned 65, completed 65 (100.00%)
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Average time worker was idle: 603.78 s
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Time job spent in pending queue: average 1.03 s, longest 10.78 s
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Job execution time: average 3.88 s, max 10.82 s
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Job life time (pending + execution): average 4.90 s, max 15.46
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.24 s
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Jobs were issued in 65 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Average processing rate: 0.80 jobs/sec
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Effective parallelization: 2.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.29.29:471][ 81]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.24 sec, max 10.24 sec, min 10.24 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.19 sec, max 10.19 sec, min 10.19 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 10.12 sec, max 10.12 sec, min 10.12 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 21.45% of total time (compiled   13 times, average 3.86 sec, max 5.93 sec, min 2.70 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.75% of total time (compiled   19 times, average 1.82 sec, max 3.61 sec, min 1.03 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.31% of total time (compiled    7 times, average 3.11 sec, max 9.89 sec, min 0.90 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.44% of total time (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.40% of total time (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.29.29:472][ 81]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.29.29:495][ 82]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.29.29:495][ 82]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.29:495][ 82]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.29:495][ 82]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.29.33:177][517]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 676BF4A64A35F13760EDDA75D762FCEE505177CB), compiling. 
+[2022.10.05-19.29.33:183][517]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8DC1CD788A0D2BA62B5FC07FEAE990528D47EBE6), compiling. 
+[2022.10.05-19.29.33:188][517]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 2FB17C9EB00C89AB99E995EA77391BFA5B296D07), compiling. 
+[2022.10.05-19.29.33:195][517]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.29.33:195][517]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.33:195][517]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.33:195][517]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.29.33:224][519]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.29.33:224][519]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.33:224][519]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.33:224][519]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.29.35:338][770]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C13087AB5D8D2FA2DD245C71796193C91E8ABA83), compiling. 
+[2022.10.05-19.29.35:350][770]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.29.35:350][770]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.35:350][770]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.35:350][770]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.29.35:369][772]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.29.35:369][772]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.35:369][772]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.35:369][772]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.29.36:580][915]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7463D82E72C369EA69C98571EEA1217C6B9E3BEC), compiling. 
+[2022.10.05-19.29.36:586][915]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C2888059BFA81E0AF7E49DCF120EE6ACD557ADA7), compiling. 
+[2022.10.05-19.29.36:591][915]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FC024812C0C878DDCD5CE26620D9ADFA8FA7F5F6), compiling. 
+[2022.10.05-19.29.36:596][915]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.29.36:596][915]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.36:597][915]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.36:597][915]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.29.36:625][917]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.29.36:625][917]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.29.36:625][917]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.29.36:625][917]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.35.03:610][ 79]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.35.03:610][ 79]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.35.11:229][932]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.35.11:229][932]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.36.04:309][159]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.36.04:309][159]LogSlateStyle: Warning: Unable to find Slate Widget Style 'Window.Buttons.Close'. Using FButtonStyle defaults instead.
+[2022.10.05-19.36.04:832][211]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/gurney01.gurney01
+[2022.10.05-19.36.04:833][211]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.36.04:943][211]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.36.12:880][984]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.36.12:887][984]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.36.17:041][447]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 73815C15E947571591F6986C06DBE6E740440E16), compiling. 
+[2022.10.05-19.36.17:045][447]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0BB5122F74F7A2772577E365A104DBA415D736D3), compiling. 
+[2022.10.05-19.36.17:049][447]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.36.17:049][447]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.17:049][447]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.17:049][447]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.36.17:068][449]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Total job queries 287, among them cache hits 174 (60.63%)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Tracking 65 distinct input hashes that result in 38 distinct outputs (58.46%)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: RAM used: 0.17 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.02%
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Shaders Compiled: 57
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Jobs assigned 65, completed 65 (100.00%)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Average time worker was idle: 603.78 s
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Time job spent in pending queue: average 1.03 s, longest 10.78 s
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Job execution time: average 3.88 s, max 10.82 s
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Job life time (pending + execution): average 4.90 s, max 15.46
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 81.24 s
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Jobs were issued in 65 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Average processing rate: 0.80 jobs/sec
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Effective parallelization: 2.88 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    1 times, average 10.24 sec, max 10.24 sec, min 10.24 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:      TBasePassPSFPrecomputedVolumetricLightmapLightingPolicy (compiled    1 times, average 10.19 sec, max 10.19 sec, min 10.19 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    1 times, average 10.12 sec, max 10.12 sec, min 10.12 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 21.45% of total time (compiled   13 times, average 3.86 sec, max 5.93 sec, min 2.70 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 14.75% of total time (compiled   19 times, average 1.82 sec, max 3.61 sec, min 1.03 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.31% of total time (compiled    7 times, average 3.11 sec, max 9.89 sec, min 0.90 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 4.44% of total time (compiled    1 times, average 10.39 sec, max 10.39 sec, min 10.39 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 4.40% of total time (compiled    1 times, average 10.29 sec, max 10.29 sec, min 10.29 sec)
+[2022.10.05-19.36.17:069][449]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.36.18:833][609]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.36.18:833][609]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.18:834][609]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.18:834][609]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.36.20:591][765]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.36.20:591][765]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.20:591][765]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.20:591][765]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.36.25:529][326]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6C4C518EBB0ACC5ED10AF653D1E65CBA9278F578), compiling. 
+[2022.10.05-19.36.25:532][326]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 3FC4CA70F71501D6ABFAF6CC9022F59B997FE4BB), compiling. 
+[2022.10.05-19.36.25:537][326]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.36.25:537][326]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.25:537][326]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.25:537][326]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.36.27:113][456]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.36.27:113][456]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.27:113][456]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.27:113][456]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.36.28:958][606]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.36.28:958][606]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.28:958][606]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.28:958][606]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.36.33:527][ 69]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: EEB86C671BC87BEE05219803A4B420DB4B82D78F), compiling. 
+[2022.10.05-19.36.33:531][ 69]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 27B4D35EC4890960F2633FB23A957C475B1909E9), compiling. 
+[2022.10.05-19.36.33:535][ 69]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.36.33:535][ 69]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.33:535][ 69]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.33:535][ 69]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.36.35:231][211]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.36.35:231][211]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.35:231][211]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.35:231][211]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.36.37:041][412]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.36.37:041][412]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.37:041][412]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.37:042][412]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.36.41:091][884]LogMaterialEditor: Applying material gurney01_Mat
+[2022.10.05-19.36.41:712][884]LogMaterial: Display: Missing cached shadermap for Preview:gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3BA452AC82C82C51D9597130BFFF953E158B1A87), compiling. 
+[2022.10.05-19.36.41:726][884]LogMaterial: Display: Missing cached shadermap for gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 440FC9EB4EC04C1D6AF5E34B24F276887C559574), compiling. 
+[2022.10.05-19.36.41:781][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.91ms
+[2022.10.05-19.36.43:739][884]LogUObjectHash: Compacting FUObjectHashTables data took   0.29ms
+[2022.10.05-19.36.43:748][884]MaterialEditorStats: Texture samplers: 3/16
+[2022.10.05-19.36.43:749][884]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.43:749][884]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.43:749][884]MaterialEditorStats: Shader Count: 3
+[2022.10.05-19.36.45:214][ 23]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.36.45:214][ 23]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.45:214][ 23]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.45:214][ 23]MaterialEditorStats: Shader Count: 4
+[2022.10.05-19.36.51:843][783]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.36.51:843][783]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.36.53:905][ 17]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat
+[2022.10.05-19.36.53:907][ 17]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 5FF69F7FD53DB49D7356709633770CB1ADFC35F2), compiling. 
+[2022.10.05-19.36.53:952][ 17]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.36.54:019][ 17]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: DEB1877E3C7CCA4E6BC990D6842489406EFF15C2), compiling. 
+[2022.10.05-19.36.54:024][ 17]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_2 in PCD3D_SM5, Default, SM5 (DDC key hash: CA15AC79B03706DE0DB55AEF90B166319EDA66A4), compiling. 
+[2022.10.05-19.36.54:027][ 17]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 34AFE311FB8C099078DF3A60ECD3D537A1170669), compiling. 
+[2022.10.05-19.36.54:029][ 17]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 8C2F515E19CE79A3025D98D8FA73CA62C8A88D18), compiling. 
+[2022.10.05-19.36.54:032][ 17]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: A2562322304815F421E5B26FB1BA738D7F67EAF4), compiling. 
+[2022.10.05-19.36.54:052][ 17]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.36.54:052][ 17]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.54:052][ 17]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.54:053][ 17]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.36.54:057][ 17]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.36.55:013][ 98]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.10.05-19.36.57:304][ 98]LogSlate: Window 'Save Content' being destroyed
+[2022.10.05-19.36.57:320][ 99]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.36.57:320][ 99]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.36.57:320][ 99]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.36.57:320][ 99]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.36.58:781][265]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.36.58:781][265]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.37.02:081][605]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/gurney01.gurney01
+[2022.10.05-19.37.02:081][605]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.37.02:185][605]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.37.11:162][496]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.37.11:168][496]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.37.16:443][100]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/gurney01.gurney01
+[2022.10.05-19.37.16:443][100]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.37.16:546][100]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.37.21:447][574]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.37.21:453][574]LogSlate: Window 'gurney01' being destroyed
+[2022.10.05-19.37.47:111][772]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.10.05-19.37.47:116][772]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse' took 0.021
+[2022.10.05-19.37.47:116][772]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FNV/textures/clutter/gurney01_Mat] ([1] browsable assets)...
+[2022.10.05-19.37.49:330][772]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-19.38.15:022][772]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.002025s (25.806585s overbudget)
+[2022.10.05-19.38.15:069][772]OBJ SavePackage:     Rendered thumbnail for [Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat]
+[2022.10.05-19.38.15:069][772]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/textures/clutter/gurney01_Mat]
+[2022.10.05-19.38.15:072][772]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/textures/clutter/gurney01_Mat_Auto2
+[2022.10.05-19.38.15:072][772]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/gurney01_Mat_Auto2A0EDCD2B483CF8020860CBA7DAD0EBD8.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/textures/clutter/gurney01_Mat_Auto2.uasset'
+[2022.10.05-19.38.15:073][772]LogFileHelpers: Auto-saving content packages took 27.956
+[2022.10.05-19.38.20:489][794]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat
+[2022.10.05-19.38.20:492][794]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 7652BA9AEB93D9377FC7BA81EC342C22F15300A6), compiling. 
+[2022.10.05-19.38.20:517][794]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.38.20:587][794]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 6B813C973849BB200F019ABE935CB93FFAF9BBDD), compiling. 
+[2022.10.05-19.38.20:592][794]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 9B3FC42FB0FB151F5A48DD0EAC6B35800124B0E6), compiling. 
+[2022.10.05-19.38.20:595][794]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 3CA963ED2D4E53D034827B3290768973B92E6BF1), compiling. 
+[2022.10.05-19.38.20:597][794]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: 36C35D4977252648691D66699BB342DF1A13149F), compiling. 
+[2022.10.05-19.38.20:599][794]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 26A8ACBBB6090E1CE4CE3E9B17C8B4F6D401EF6A), compiling. 
+[2022.10.05-19.38.20:620][794]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.20:620][794]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.20:620][794]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.20:620][794]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.20:624][794]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.38.22:336][914]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.38.22:336][914]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.22:336][914]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.22:336][914]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.38.24:183][ 54]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.38.24:183][ 54]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.24:183][ 54]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.24:183][ 54]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.25:399][180]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 77552FCB0582A5D5052C0A69BB8AC696903C4D0A), compiling. 
+[2022.10.05-19.38.25:410][180]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.25:411][180]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.25:411][180]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.25:411][180]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.25:445][182]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.38.25:445][182]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.25:445][182]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.25:445][182]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.31:416][868]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: FA709517F46C986582761F6F98D587929486DFDA), compiling. 
+[2022.10.05-19.38.31:429][868]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.31:429][868]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.31:429][868]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.31:429][868]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.31:460][870]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.38.31:460][870]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.31:460][870]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.31:460][870]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.32:289][964]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: F8E4800E3B9284ABA6615E4EE95F0FC66389BD20), compiling. 
+[2022.10.05-19.38.32:302][964]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.32:302][964]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.32:302][964]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.32:302][964]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.32:321][966]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.38.32:321][966]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.32:321][966]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.32:321][966]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.33:290][ 79]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 555E7226737D1F4D2E9E53DE366D20F46792B287), compiling. 
+[2022.10.05-19.38.33:296][ 79]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: B5E0DF95B3F62115898ADBF6CB8031B4080A76E5), compiling. 
+[2022.10.05-19.38.33:302][ 79]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 32A87864516489E378439A0804B346AA483F84FE), compiling. 
+[2022.10.05-19.38.33:309][ 79]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.33:309][ 79]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-19.38.33:309][ 79]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.33:309][ 79]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.34:575][197]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5C22C3B24F9DAD472437222952455D24A9274736), compiling. 
+[2022.10.05-19.38.34:945][231]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.38.34:945][231]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-19.38.34:945][231]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.34:945][231]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.38.36:794][388]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.38.36:794][388]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-19.38.36:794][388]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.36:794][388]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.44:213][233]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 7DA9D55D613B7B2AEAD1DAA7447ABAEDC6F5D3F5), compiling. 
+[2022.10.05-19.38.44:225][233]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.44:225][233]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-19.38.44:225][233]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.44:225][233]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.44:245][235]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.38.44:245][235]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-19.38.44:245][235]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.44:245][235]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.45:089][334]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 6C84FCAB7A5618E1CAAE4D2995B81DE9DC91531A), compiling. 
+[2022.10.05-19.38.45:094][334]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: D6CA26FD99ABACE85D6324E1F6D0B03AC58FCA95), compiling. 
+[2022.10.05-19.38.45:099][334]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 5213F82BB2E636E5F627516142B394EC6BC1EFD7), compiling. 
+[2022.10.05-19.38.45:106][334]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.45:106][334]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.45:106][334]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.45:106][334]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.45:134][336]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.38.45:134][336]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.45:134][336]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.45:134][336]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.56:296][639]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: A59BA71116B4557067DA31EDDEC5E3A5D416ABBE), compiling. 
+[2022.10.05-19.38.56:299][639]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 0C3CC1A81891D45DF65DDFAB0C87458A692FA91A), compiling. 
+[2022.10.05-19.38.56:303][639]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.38.56:303][639]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.56:303][639]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.56:303][639]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.38.57:719][709]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.38.57:719][709]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.57:719][709]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.57:719][709]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.38.59:562][778]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.38.59:562][778]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.38.59:562][778]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.38.59:562][778]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.39.01:939][979]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.39.01:939][979]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.01:939][979]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.01:939][979]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.39.06:768][533]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: FFF181152F8EFF3BD3F3AE30F84B560CFCAB8D0C), compiling. 
+[2022.10.05-19.39.06:771][533]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: EE250AFCB942C09803FD989410B41865FC908255), compiling. 
+[2022.10.05-19.39.06:776][533]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.39.06:776][533]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.06:776][533]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.06:776][533]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.39.07:868][576]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.39.07:868][576]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.07:868][576]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.07:868][576]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.39.09:994][669]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.39.09:994][669]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.09:994][669]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.09:994][669]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.39.11:567][787]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 38C02450F4CC8D1A58DDBAA19259B297DB27F034), compiling. 
+[2022.10.05-19.39.11:570][787]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 1623FA0CEDFA915110F5044E858D22EEC110FD06), compiling. 
+[2022.10.05-19.39.11:577][787]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.39.11:577][787]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.11:577][787]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.11:577][787]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.39.12:689][832]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.39.12:689][832]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.12:689][832]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.12:689][832]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.39.15:209][927]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.39.15:209][927]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.15:209][927]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.15:209][927]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Total job queries 463, among them cache hits 269 (58.10%)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Tracking 122 distinct input hashes that result in 66 distinct outputs (54.10%)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: RAM used: 0.29 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.03%
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Shaders Compiled: 88
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Jobs assigned 122, completed 122 (100.00%)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Average time worker was idle: 423.10 s
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Time job spent in pending queue: average 1.94 s, longest 24.24 s
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Job execution time: average 4.67 s, max 19.03 s
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Job life time (pending + execution): average 6.61 s, max 27.80
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 148.78 s
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Jobs were issued in 122 batches (only local compilation was used), average 1.00 jobs/batch
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Average processing rate: 0.82 jobs/sec
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Effective parallelization: 3.46 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 14.40 sec, max 18.42 sec, min 10.39 sec)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 14.36 sec, max 18.42 sec, min 10.29 sec)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 14.30 sec, max 18.37 sec, min 10.24 sec)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 13.96 sec, max 17.80 sec, min 10.12 sec)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 10.48 sec, max 12.93 sec, min 8.02 sec)
+[2022.10.05-19.39.17:424][138]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 16.90% of total time (compiled   22 times, average 3.95 sec, max 6.90 sec, min 2.69 sec)
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.26% of total time (compiled   28 times, average 1.88 sec, max 3.61 sec, min 1.03 sec)
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 7.58% of total time (compiled    8 times, average 4.87 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.60% of total time (compiled    2 times, average 14.40 sec, max 18.42 sec, min 10.39 sec)
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.58% of total time (compiled    2 times, average 14.36 sec, max 18.42 sec, min 10.29 sec)
+[2022.10.05-19.39.17:425][138]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.39.17:432][139]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.39.17:432][139]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.17:432][139]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.17:432][139]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.39.19:209][323]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: 4164C3D4120B46DC97861DEE32EC1EFF173C2D64), compiling. 
+[2022.10.05-19.39.19:212][323]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_2 in PCD3D_SM5, Default, SM5 (DDC key hash: FE0711BC5C54EB07351FF08514A422C387916307), compiling. 
+[2022.10.05-19.39.19:216][323]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.39.19:216][323]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.19:216][323]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.19:216][323]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.39.20:278][374]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.39.20:278][374]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.20:278][374]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.20:278][374]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.39.22:616][465]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.39.22:616][465]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.22:616][465]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.22:616][465]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.39.24:569][657]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.39.24:569][657]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.24:569][657]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.24:569][657]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.39.26:800][921]LogMaterialEditor: Applying material gurney01_Mat
+[2022.10.05-19.39.27:471][921]LogMaterial: Display: Missing cached shadermap for Preview:PreviewMaterial_3 in PCD3D_SM5, Default, SM5 (DDC key hash: E70BEB407324BC04336B03AAF38FF486AFCFB906), compiling. 
+[2022.10.05-19.39.27:491][921]LogMaterial: Display: Missing cached shadermap for gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1236BA67D8648567291BB2F2EF6A576D52ED4970), compiling. 
+[2022.10.05-19.39.27:592][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.71ms
+[2022.10.05-19.39.30:497][921]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2022.10.05-19.39.30:567][921]MaterialEditorStats: Texture samplers: 3/16
+[2022.10.05-19.39.30:567][921]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.30:567][921]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.30:567][921]MaterialEditorStats: Shader Count: 7
+[2022.10.05-19.39.32:002][ 30]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-19.39.32:002][ 30]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(3)
+[2022.10.05-19.39.32:002][ 30]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.39.32:002][ 30]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.39.32:929][107]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.39.32:930][107]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.40.02:767][645]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-19.40.02:770][645]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6748A4ED522854A7E06B8A6FBAE3C08EC84BB19D), compiling. 
+[2022.10.05-19.40.02:817][645]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.40.02:888][645]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C7068C624E5883620C0A53CC045B4B1320405F12), compiling. 
+[2022.10.05-19.40.02:893][645]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0DD2D96DEFA382BB73DEACE8754285CDE3CC7361), compiling. 
+[2022.10.05-19.40.02:896][645]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 5EB0B15C193E189FA91EF366B8E5828A4D0AF187), compiling. 
+[2022.10.05-19.40.02:898][645]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 17DCD766007F8E950E7ECB698F3FBF00307B7D49), compiling. 
+[2022.10.05-19.40.02:921][645]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.40.02:921][645]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.02:921][645]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.02:921][645]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.40.02:924][645]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.40.05:095][811]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.40.05:095][811]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.05:095][811]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.05:095][811]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.40.07:542][  1]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: ABEB11CA18474E1C02767237513774FBC76CAE17), compiling. 
+[2022.10.05-19.40.07:558][  1]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.40.07:558][  1]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.07:558][  1]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.07:558][  1]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.40.07:598][  3]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.40.07:598][  3]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.07:598][  3]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.07:598][  3]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.40.08:888][129]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3C1962E648E74DBA5F600AD4B79DFEE5A66A8C04), compiling. 
+[2022.10.05-19.40.08:894][129]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 479023BE3108F8A09367CC8BD771D234F6423F4B), compiling. 
+[2022.10.05-19.40.08:898][129]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: A49664D7C312BB6CC9D5FC0BD895996D78722C88), compiling. 
+[2022.10.05-19.40.08:905][129]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.40.08:905][129]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.08:905][129]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.08:905][129]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.40.08:933][131]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.40.08:933][131]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.08:933][131]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.08:933][131]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.40.12:730][553]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 26994D7E30E73816969DE5F9BF9EFB74E1EFA994), compiling. 
+[2022.10.05-19.40.12:733][553]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: B516D5AF64D4775E0522C52BE9D929D3CBC4F5DF), compiling. 
+[2022.10.05-19.40.12:737][553]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.40.12:737][553]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.12:737][553]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.12:737][553]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.40.14:345][631]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.40.14:346][631]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.14:346][631]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.14:346][631]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.40.16:464][694]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.40.16:465][694]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.16:465][694]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.16:465][694]MaterialEditorStats: Shader Count: 5
+[2022.10.05-19.40.19:553][948]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5085EA132352DA80547D20BC188B0BE887DBBACF), compiling. 
+[2022.10.05-19.40.19:556][948]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.40.19:556][948]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.19:556][948]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.19:556][948]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.40.19:592][950]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-19.40.19:592][950]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.19:592][950]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.19:592][950]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.40.19:616][951]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.40.19:616][951]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.19:616][951]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.19:616][951]MaterialEditorStats: Shader Count: 9
+[2022.10.05-19.40.21:200][107]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-19.40.21:200][107]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.21:200][107]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.21:200][107]MaterialEditorStats: Shader Count: 10
+[2022.10.05-19.40.23:472][352]LogMaterialEditor: Applying material tenpennyrugs01_Mat
+[2022.10.05-19.40.24:138][352]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: DB6414E726984A197CED6A4E7C3EBC8DFBF06D19), compiling. 
+[2022.10.05-19.40.24:160][352]LogMaterial: Display: Missing cached shadermap for tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: BD5E6843FF658AAA6B0D455CE0A1D0DFDAA101BA), compiling. 
+[2022.10.05-19.40.24:263][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.10.05-19.40.26:040][352]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2022.10.05-19.40.26:063][352]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.40.26:063][352]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.40.26:063][352]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.40.26:063][352]MaterialEditorStats: Shader Count: 8
+[2022.10.05-19.40.27:503][481]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.40.27:503][481]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.40.58:379][ 48]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01
+[2022.10.05-19.40.58:380][ 48]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.40.58:490][ 48]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.40.59:651][146]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.41.03:858][538]LogSlate: Window 'tenpennyrugs01' being destroyed
+[2022.10.05-19.41.03:865][538]LogSlate: Window 'tenpennyrugs01' being destroyed
+[2022.10.05-19.41.18:304][172]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01
+[2022.10.05-19.41.18:304][172]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.41.18:407][172]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.41.24:842][751]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.41.26:787][935]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.41.30:064][238]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.41.57:272][132]LogViewport: Scene viewport resized to 1421x909, mode Windowed.
+[2022.10.05-19.41.57:352][134]LogViewport: Scene viewport resized to 579x303, mode Windowed.
+[2022.10.05-19.41.57:654][163]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.41.57:749][166]LogViewport: Scene viewport resized to 1421x909, mode Windowed.
+[2022.10.05-19.41.57:824][168]LogViewport: Scene viewport resized to 579x303, mode Windowed.
+[2022.10.05-19.41.57:903][174]LogViewport: Scene viewport resized to 1424x886, mode Windowed.
+[2022.10.05-19.41.58:603][253]LogSlate: Window 'tenpennyrugs01' being destroyed
+[2022.10.05-19.42.29:923][914]MapCheck: New page: Map Check
+[2022.10.05-19.42.29:948][914]LightingResults: New page: Lighting Build - Oct 5, 2022, 11:42:29 AM
+[2022.10.05-19.42.30:235][914]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.10.05-19.42.30:794][914]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.10.05-19.42.30:810][914]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.10.05-19.42.31:842][914]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.10.05-19.42.31:842][914]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3864
+[2022.10.05-19.42.34:487][914]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.10.05-19.42.34:488][914]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.10.05-19.42.34:488][914]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.10.05-19.42.34:488][914]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.10.05-19.42.34:488][914]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.10.05-19.42.34:488][914]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.10.05-19.42.34:763][914]LogEditorBuildUtils: Build time 0:04
+[2022.10.05-19.42.34:780][914]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offdoorsm01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 58497EC3CE8FC42811DA56152D00F57EAEC65B88), compiling. 
+[2022.10.05-19.42.34:794][914]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offdoorsm01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 89EEDC3242FA98DD281882CC02B86F8F0C0686EB), compiling. 
+[2022.10.05-19.42.34:828][915]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer metalshelvingr_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8C362CDBDC938BCA61E3E2CF69CBBBC273F5E895), compiling. 
+[2022.10.05-19.42.34:839][915]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer metalshelvingr_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1A27A084F1AAC07D6DE5094D92309238D2B98676), compiling. 
+[2022.10.05-19.42.34:883][916]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E44F96E63BDCB31DAE6E893D6B2F8C82CA0CDF31), compiling. 
+[2022.10.05-19.42.34:897][916]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0A9E2132C253CBA3D9895A7E7E187ADA1255ED45), compiling. 
+[2022.10.05-19.42.34:918][916]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C989E3BE69153111AC75F745C37071CC65F3B649), compiling. 
+[2022.10.05-19.42.34:968][917]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanintceiling_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 218331C6ECD43A791347C07CB5B811781E5D70C2), compiling. 
+[2022.10.05-19.42.34:979][917]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanintceiling_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 91E793D3CB42479A6C4219D3FC0FC23574FE1383), compiling. 
+[2022.10.05-19.42.35:033][918]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 007F5EF8650EDD2AE5661FA7A8EFC392D6D1AD9B), compiling. 
+[2022.10.05-19.42.35:049][918]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D810ADEF669D69EDB8AD111338B7720D98C3349B), compiling. 
+[2022.10.05-19.42.35:112][919]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanhomes_interiorwall01_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 314708048D97943CE561156380FB14882DF9FCF8), compiling. 
+[2022.10.05-19.42.35:135][919]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer nvcraftsmanhomes_interiorwall01_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: EA196D1BB827140FAA8B19071E4437B439EE1B82), compiling. 
+[2022.10.05-19.42.35:198][920]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offrmwallinside01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 9DA35D1E34C07E9EEA97874DE12EF3EF641BC44A), compiling. 
+[2022.10.05-19.42.35:211][920]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offrmwallinside01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F068FD79896FB6A4B0BCDDDE5E26E4762EEDFBE6), compiling. 
+[2022.10.05-19.42.35:276][921]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer sscratetall_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F0FA209FA1D2BD3890262C7FFE72201E81C16332), compiling. 
+[2022.10.05-19.42.35:298][921]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer sscratetall_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 60AC71209F6C8D8AC67309BA86D8D3BE9D5E72CB), compiling. 
+[2022.10.05-19.42.35:355][922]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 531998DA8A40FCAAD24D7CFAEA8E14BAA2265A79), compiling. 
+[2022.10.05-19.42.35:374][922]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B472DFA3CE111239662B66F6E63D9097EF4A6772), compiling. 
+[2022.10.05-19.42.35:404][923]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offrmtrimglass01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5CCB34F984695A4D6663D391249E76375B6DF59F), compiling. 
+[2022.10.05-19.42.35:421][923]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer offrmtrimglass01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 45F3D4364D779281AA5CEBC920E0DE0B2C257090), compiling. 
+[2022.10.05-19.42.35:442][924]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer facrmtrim01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 67A2E4A0F8B43D32B79424C1D2BF01352F818352), compiling. 
+[2022.10.05-19.42.35:458][924]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer facrmtrim01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B9BDFE0D24987A244989BA70EB74FA49F4456DC5), compiling. 
+[2022.10.05-19.42.35:492][925]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0E9DBE214FD66855BCF7FD2782604665345E26D1), compiling. 
+[2022.10.05-19.42.35:513][925]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B80F98F2FDAB069BE5476FEA07A27A85F0CDF596), compiling. 
+[2022.10.05-19.42.35:533][925]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer gurney01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 2061C5506DC47ED96A8DF0D0E2BCD8AD8688FEF7), compiling. 
+[2022.10.05-19.42.54:484][926]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s, reporting...
+[2022.10.05-19.42.54:484][926]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' report submitted, and took 0.049937s
+[2022.10.05-19.42.54:484][926]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.000024s (12.556456s overbudget)
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Total job queries 642, among them cache hits 344 (53.58%)
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Tracking 212 distinct input hashes that result in 93 distinct outputs (43.87%)
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: RAM used: 0.37 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.04%
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Shaders Compiled: 133
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Jobs assigned 212, completed 212 (100.00%)
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Average time worker was idle: 295.99 s
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Time job spent in pending queue: average 2.27 s, longest 24.24 s
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Job execution time: average 5.73 s, max 19.03 s
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Job life time (pending + execution): average 8.00 s, max 27.80
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 203.21 s
+[2022.10.05-19.42.54:657][926]LogShaderCompilers: Display: Jobs were issued in 176 batches (only local compilation was used), average 1.20 jobs/batch
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: Average processing rate: 1.04 jobs/sec
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: Effective parallelization: 3.55 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    2 times, average 14.40 sec, max 18.42 sec, min 10.39 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    2 times, average 14.36 sec, max 18.42 sec, min 10.29 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    2 times, average 14.30 sec, max 18.37 sec, min 10.24 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    2 times, average 13.96 sec, max 17.80 sec, min 10.12 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    2 times, average 10.48 sec, max 12.93 sec, min 8.02 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 18.97% of total time (compiled   58 times, average 2.36 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 15.16% of total time (compiled   26 times, average 4.21 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 13.37% of total time (compiled   34 times, average 2.84 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display:          TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQ - 4.50% of total time (compiled    4 times, average 8.12 sec, max 18.32 sec, min 4.07 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 3.99% of total time (compiled    2 times, average 14.40 sec, max 18.42 sec, min 10.39 sec)
+[2022.10.05-19.42.54:658][926]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.42.55:221][947]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2022.10.05-19.42.59:834][235]LightingResults: Warning: NVCraftsmanRmWall02B_8 Object has overlapping UVs.
+[2022.10.05-19.42.59:834][235]LightingResults: NVCraftsmanRmWall02B_8 Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.10.05-19.43.00:890][324]LightingResults: Warning: NVCraftsmanRmWall02B_8 Object has overlapping UVs.
+[2022.10.05-19.43.00:890][324]LightingResults: NVCraftsmanRmWall02B_8 Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.10.05-19.43.02:224][441]Job is a success!
+[2022.10.05-19.43.02:666][442]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.252s
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:      Bricks at depth
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:      Bricks in each level
+[2022.10.05-19.43.02:667][442]LogVolumetricLightmapImport:          GSDocMitchellHouse 			 10 bricks 	 100.0% (Persistent Level)
+[2022.10.05-19.43.03:112][442]LightingResults: Warning: PointLight_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-19.43.03:113][442]LightingResults: Warning: PointLight_6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-19.43.03:113][442]LightingResults: Warning: PointLight_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-19.43.03:113][442]LightingResults: Warning: PointLight_0 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-19.43.03:236][442]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-19.43.03:322][442]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-19.43.03:373][442]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:HQ_Lightmap1_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-19.43.03:418][442]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:LQ_Lightmap_1_2 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-19.43.03:778][442]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:ShadowMapTexture2D_1 (BGRA8, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-19.43.03:881][442]Lightmass on CONNORTCM: 6.88 sec total, 835 ms importing, 45 ms setup, 618 ms photons, 5.36 sec processing, 0 us extra exporting [192/192 mappings]. Threads: 1:20 min total, 46.1 sec processing.
+[2022.10.05-19.43.03:905][442]LogStaticLightingSystem: GSDocMitchellHouse_BuiltData storing lightmap data for 192 meshes in 4 LightmapResourceClusters (48.0 Meshes per cluster).
+[2022.10.05-19.43.03:970][442]LogUObjectHash: Compacting FUObjectHashTables data took   0.89ms
+[2022.10.05-19.43.03:999][442]LogStaticLightingSystem: Illumination: 34.0 sec (337 ms encoding lightmaps, 352 ms encoding shadowmaps)
+[2022.10.05-19.43.04:000][442]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (4.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.10.05-19.43.04:000][442]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.4 MB streaming, 0.0 MB non-streaming), 1 textures
+[2022.10.05-19.43.04:998][442]DumpUnbuiltLightIteractions
+[2022.10.05-19.43.04:999][442]Lights with unbuilt interactions: 0
+[2022.10.05-19.43.04:999][442]
+[2022.10.05-19.43.04:999][442]Primitives with unbuilt interactions: 0
+[2022.10.05-19.43.08:113][442]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-19.43.08:152][442]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.005112s (1.152232s overbudget)
+[2022.10.05-19.43.08:275][443]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.10.05-19.43.08:275][443]MapCheck: New page: GSDocMitchellHouse - Oct 5, 2022, 11:43:08 AM
+[2022.10.05-19.43.08:435][443]MapCheck: Warning: StaticMeshActor_5 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_9 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_11 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_14 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_16 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_7 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_10 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_15 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_19 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:436][443]MapCheck: Warning: StaticMeshActor_21 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_3 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_6 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_12 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_17 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_22 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_33 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_56 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:485][443]MapCheck: Warning: StaticMeshActor_43 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-19.43.08:515][443]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 239.267ms to complete.
+[2022.10.05-19.43.11:107][722]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-19.43.11:115][722]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-19.43.16:755][385]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.05-19.43.16:763][385]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.05-19.43.16:763][385]PIE: New page: PIE session: GSDocMitchellHouse (Oct 5, 2022, 11:43:16 AM)
+[2022.10.05-19.43.16:800][385]LogPlayLevel: Creating play world package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-19.43.16:820][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019617s)
+[2022.10.05-19.43.16:820][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse to /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse (0.019809s)
+[2022.10.05-19.43.16:820][385]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.05-19.43.16:820][385]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.43.16:820][385]LogAIModule: Creating AISystem for world GSDocMitchellHouse
+[2022.10.05-19.43.16:821][385]LogPlayLevel: PIE: World Init took: (0.001050s)
+[2022.10.05-19.43.16:830][385]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.10.05-19.43.16:832][385]LogAudio: Display: Creating Audio Device:                 Id: 3, Scope: Unique, Realtime: True
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.05-19.43.16:832][385]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.10.05-19.43.16:832][385]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.05-19.43.16:832][385]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.10.05-19.43.16:832][385]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.10.05-19.43.16:832][385]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.05-19.43.16:835][385]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.05-19.43.16:872][385]LogAudioMixer: Display: Using Audio Hardware Device Speakers (G935 Gaming Headset)
+[2022.10.05-19.43.16:873][385]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.05-19.43.16:873][385]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.05-19.43.16:873][385]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.05-19.43.16:874][385]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=3
+[2022.10.05-19.43.16:874][385]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=3
+[2022.10.05-19.43.16:876][385]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=3
+[2022.10.05-19.43.16:876][385]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=3
+[2022.10.05-19.43.16:876][385]LogInit: FAudioDevice initialized.
+[2022.10.05-19.43.16:876][385]LogAudio: Display: Audio Device (ID: 3) registered with world 'GSDocMitchellHouse'.
+[2022.10.05-19.43.16:894][385]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.05-19.43.16:904][385]LogWorld: Bringing World /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse up for play (max tick rate 0) at 2022.10.05-15.43.16
+[2022.10.05-19.43.16:904][385]LogWorld: Bringing up level for play took: 0.009396
+[2022.10.05-19.43.16:907][385]LogOnline: OSS: Created online subsystem instance for: :Context_15
+[2022.10.05-19.43.16:910][385]PIE: Server logged in
+[2022.10.05-19.43.16:911][385]PIE: Play in editor total start time 0.149 seconds.
+[2022.10.05-19.43.16:931][385]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.10.05-19.43.23:382][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-19.43.23:382][131]LogWorld: BeginTearingDown for /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-19.43.23:383][131]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.43.23:384][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.43.23:398][131]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.05-19.43.23:400][131]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.43.23:409][131]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-19.43.23:410][131]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.10.05-19.43.23:410][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.05-19.43.23:413][131]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=3
+[2022.10.05-19.43.23:422][131]LogUObjectHash: Compacting FUObjectHashTables data took   0.76ms
+[2022.10.05-19.43.23:447][132]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2022.10.05-19.43.59:979][354]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/architechure/generic/apartmentpre01gla_Mat.apartmentpre01gla_Mat
+[2022.10.05-19.43.59:983][354]LogMaterial: Display: Missing cached shadermap for Preview:apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3A412BA4BFFCF93DB1431C267DA2BBE86793C176), compiling. 
+[2022.10.05-19.44.00:066][354]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.44.00:182][354]LogMaterial: Display: Missing cached shadermap for Preview:apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 1128A52589002A409D44664447D10CAD0848D4E0), compiling. 
+[2022.10.05-19.44.00:188][354]LogMaterial: Display: Missing cached shadermap for Preview:apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: AA5F19031B95D433641067241AB12017BA2876B0), compiling. 
+[2022.10.05-19.44.00:191][354]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 395BADD4D9AB92398B8046C20EA36DA0D23C1D28), compiling. 
+[2022.10.05-19.44.00:193][354]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 71278B280B50C09541F148C08E62777BBD594B6B), compiling. 
+[2022.10.05-19.44.00:195][354]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_3 in PCD3D_SM5, Default, SM5 (DDC key hash: CF1A93172662088C44C302D86BCAEDC9D7A68FA8), compiling. 
+[2022.10.05-19.44.00:220][354]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.44.00:220][354]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.00:220][354]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.00:220][354]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.44.00:227][354]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.44.03:037][460]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.44.03:037][460]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.03:037][460]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.03:037][460]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.44.04:112][506]LogMaterial: Display: Missing cached shadermap for Preview:apartmentpre01gla_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 23B0AF6F87E26A4A8838D621A18276A764E0B60C), compiling. 
+[2022.10.05-19.44.04:129][506]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.44.04:129][506]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.04:129][506]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.04:129][506]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.44.04:189][508]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.44.04:189][508]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.04:189][508]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.04:189][508]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.44.05:156][566]MaterialEditorStats: Texture samplers: 7/16
+[2022.10.05-19.44.05:156][566]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.05:156][566]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.05:156][566]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.44.24:647][162]LogSlate: Window 'apartmentpre01gla_Mat' being destroyed
+[2022.10.05-19.44.24:653][162]LogSlate: Window 'apartmentpre01gla_Mat' being destroyed
+[2022.10.05-19.44.24:709][162]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.44.24:709][162]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.44.40:199][954]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorwall01_1.nvcraftsmanhomes_interiorwall01_1
+[2022.10.05-19.44.40:199][954]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.44.40:307][954]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.44.42:305][139]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_1' being destroyed
+[2022.10.05-19.44.42:312][139]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_1' being destroyed
+[2022.10.05-19.44.43:889][308]LogAssetEditorSubsystem: Opening Asset editor for Texture2D /Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorwall01_n_1.nvcraftsmanhomes_interiorwall01_n_1
+[2022.10.05-19.44.43:889][308]LogTextureEditor: Warning: No compression block size found in settings - using 256KB
+[2022.10.05-19.44.43:984][308]LogViewport: Scene viewport resized to 1424x898, mode Windowed.
+[2022.10.05-19.44.46:495][540]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_n_1' being destroyed
+[2022.10.05-19.44.46:499][540]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_n_1' being destroyed
+[2022.10.05-19.44.47:507][644]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorwall01_1_Mat.nvcraftsmanhomes_interiorwall01_1_Mat
+[2022.10.05-19.44.47:509][644]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorwall01_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FB90DFD9847EE7F9EC285058F6DD676B79747996), compiling. 
+[2022.10.05-19.44.47:534][644]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.44.47:646][644]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorwall01_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8D270A35C0B50E442913F3E74F47D090914FE1A8), compiling. 
+[2022.10.05-19.44.47:651][644]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorwall01_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F073940124CE83E1374D2A8D7ADC3A8CFD96D8F1), compiling. 
+[2022.10.05-19.44.47:654][644]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 36A2055A478092979F80EE35CB11BA786A45881E), compiling. 
+[2022.10.05-19.44.47:656][644]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 5123EB860599A29BB5B33ACBF509D6F509DE9F85), compiling. 
+[2022.10.05-19.44.47:680][644]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-19.44.47:680][644]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.47:680][644]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.47:680][644]MaterialEditorStats: Shader Count: 0
+[2022.10.05-19.44.47:690][644]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-19.44.49:988][745]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-19.44.49:988][745]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.49:988][745]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.49:988][745]MaterialEditorStats: Shader Count: 1
+[2022.10.05-19.44.51:996][855]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-19.44.51:996][855]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-19.44.51:996][855]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-19.44.51:996][855]MaterialEditorStats: Shader Count: 2
+[2022.10.05-19.45.03:534][763]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_1_Mat' being destroyed
+[2022.10.05-19.45.03:539][763]LogSlate: Window 'nvcraftsmanhomes_interiorwall01_1_Mat' being destroyed
+[2022.10.05-19.45.03:554][763]LogWorld: UWorld::CleanupWorld for World_14, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.45.03:554][763]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.45.09:305][433]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.05-19.45.09:313][433]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.05-19.45.09:313][433]PIE: New page: PIE session: GSDocMitchellHouse (Oct 5, 2022, 11:45:09 AM)
+[2022.10.05-19.45.09:345][433]LogPlayLevel: Creating play world package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-19.45.09:364][433]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018638s)
+[2022.10.05-19.45.09:364][433]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse to /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse (0.018803s)
+[2022.10.05-19.45.09:364][433]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.05-19.45.09:364][433]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-19.45.09:364][433]LogAIModule: Creating AISystem for world GSDocMitchellHouse
+[2022.10.05-19.45.09:365][433]LogPlayLevel: PIE: World Init took: (0.000905s)
+[2022.10.05-19.45.09:375][433]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.10.05-19.45.09:378][433]LogAudio: Display: Creating Audio Device:                 Id: 4, Scope: Unique, Realtime: True
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.05-19.45.09:378][433]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.10.05-19.45.09:378][433]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.05-19.45.09:378][433]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.10.05-19.45.09:378][433]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.10.05-19.45.09:378][433]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.05-19.45.09:381][433]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.05-19.45.09:418][433]LogAudioMixer: Display: Using Audio Hardware Device Speakers (G935 Gaming Headset)
+[2022.10.05-19.45.09:418][433]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.05-19.45.09:418][433]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.05-19.45.09:418][433]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.05-19.45.09:419][433]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=4
+[2022.10.05-19.45.09:419][433]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=4
+[2022.10.05-19.45.09:421][433]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=4
+[2022.10.05-19.45.09:421][433]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=4
+[2022.10.05-19.45.09:421][433]LogInit: FAudioDevice initialized.
+[2022.10.05-19.45.09:421][433]LogAudio: Display: Audio Device (ID: 4) registered with world 'GSDocMitchellHouse'.
+[2022.10.05-19.45.09:434][433]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.05-19.45.09:443][433]LogWorld: Bringing World /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse up for play (max tick rate 0) at 2022.10.05-15.45.09
+[2022.10.05-19.45.09:444][433]LogWorld: Bringing up level for play took: 0.009270
+[2022.10.05-19.45.09:446][433]LogOnline: OSS: Created online subsystem instance for: :Context_18
+[2022.10.05-19.45.09:449][433]PIE: Server logged in
+[2022.10.05-19.45.09:450][433]PIE: Play in editor total start time 0.137 seconds.
+[2022.10.05-19.45.09:468][433]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.10.05-19.45.14:434][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-19.45.14:435][ 11]LogWorld: BeginTearingDown for /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-19.45.14:435][ 11]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-19.45.14:436][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.45.14:453][ 11]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.05-19.45.14:456][ 11]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-19.45.14:464][ 11]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2022.10.05-19.45.14:464][ 11]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.10.05-19.45.14:464][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.05-19.45.14:466][ 11]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=4
+[2022.10.05-19.45.14:470][ 11]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-19.45.14:475][ 11]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.10.05-19.45.14:499][ 12]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2022.10.05-19.45.23:493][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.10.05-19.45.23:539][ 51]LogUObjectHash: Compacting FUObjectHashTables data took   0.28ms
+[2022.10.05-19.45.23:604][ 51]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse
+[2022.10.05-19.45.23:605][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse39D2705A460DA47E57A8B489CB1497ED.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.umap'
+[2022.10.05-19.45.23:621][ 51]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-19.45.23:940][ 51]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-19.45.23:941][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_BuiltDataBF1BC45B4F172D6D09711DB2EAE4F922.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.uasset'
+[2022.10.05-19.45.23:944][ 51]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-19.45.23:944][ 51]LogFileHelpers: Saving map 'GSDocMitchellHouse' took 0.414
+[2022.10.05-19.45.24:266][ 51]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-19.45.24:267][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_BuiltDataF8B6EC574FEEA1592AFB0C9BB49C1AA4.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.uasset'
+[2022.10.05-19.45.26:633][ 51]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-19.45.47:202][ 51]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005804s (20.608460s overbudget)
+[2022.10.05-19.45.47:255][ 51]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/textures/clutter/gurney01_Mat" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/gurney01_Mat.uasset" SILENT=true
+[2022.10.05-19.45.47:258][ 51]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/gurney01_Mat
+[2022.10.05-19.45.47:259][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/gurney01_Mat1A861E7A4C64D74636A348A9802CD105.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/gurney01_Mat.uasset'
+[2022.10.05-19.45.49:446][ 51]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-19.46.29:903][ 51]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.005015s (40.594633s overbudget)
+[2022.10.05-19.46.29:915][ 51]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Total job queries 768, among them cache hits 370 (48.18%)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Tracking 278 distinct input hashes that result in 137 distinct outputs (49.28%)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: RAM used: 0.56 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.07%
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Shaders Compiled: 168
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Jobs assigned 278, completed 278 (100.00%)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Average time worker was idle: 217.62 s
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Time job spent in pending queue: average 4.11 s, longest 31.07 s
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Job execution time: average 6.15 s, max 24.92 s
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Job life time (pending + execution): average 10.25 s, max 42.59
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 283.22 s
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Jobs were issued in 242 batches (only local compilation was used), average 1.15 jobs/batch
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Average processing rate: 0.98 jobs/sec
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Effective parallelization: 4.23 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    4 times, average 17.13 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    4 times, average 17.07 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    4 times, average 16.89 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    4 times, average 16.63 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    4 times, average 14.34 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 11.95% of total time (compiled   61 times, average 2.34 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.83% of total time (compiled   28 times, average 4.20 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 9.04% of total time (compiled   37 times, average 2.92 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.72% of total time (compiled    4 times, average 17.13 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.70% of total time (compiled    4 times, average 17.07 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-19.46.29:916][ 51]LogShaderCompilers: Display: ================================================
+[2022.10.05-19.46.29:963][ 51]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat
+[2022.10.05-19.46.29:964][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/tenpennyrugs01_Mat440A074B4C1FC5CDE3496E9B319B87CA.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.uasset'
+[2022.10.05-19.46.30:286][ 51]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-19.46.30:287][ 51]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_BuiltDataD8B40BC8408BC30ECB960DA841C67E4F.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.uasset'
+[2022.10.05-19.46.30:303][ 51]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.05-19.46.30:303][ 51]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/gurney01_Mat.gurney01_Mat
+[2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating World /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse
+[2022.10.05-19.46.30:304][ 51]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData

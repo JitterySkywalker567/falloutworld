@@ -2792,3 +2792,1356 @@ LogConfig: CVar [[QualityLevelMapping:high]] deferred - dummy variable created
 [2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
 [2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01_n.tenpennyrugs01_n
 [2022.10.05-19.55.43:540][ 75]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/questitems/tenpennyrugs01.tenpennyrugs01
+[2022.10.05-19.59.13:999][329]LogFactory: FactoryCreateFile: StaticMesh with FbxFactory (0 0 C:\Users\CJCBa\Downloads\(A!) RANDOM DOWNLOADS\NifSkope_2_0_2018-02-22-x64\OUT\Telephone01.obj)
+[2022.10.05-19.59.14:009][329]LogFbx: Loading FBX Scene from C:\Users\CJCBa\Downloads\(A!) RANDOM DOWNLOADS\NifSkope_2_0_2018-02-22-x64\OUT\Telephone01.obj
+[2022.10.05-19.59.14:252][329]LogFbx: FBX Scene Loaded Succesfully
+[2022.10.05-19.59.17:113][329]LogSlate: Window 'FBX Import Options' being destroyed
+[2022.10.05-19.59.17:134][329]LogStaticMesh: Display: Building static mesh Telephone01...
+[2022.10.05-19.59.17:145][329]LogStaticMesh: Built static mesh [0.01s] /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-19.59.17:159][329]FBXImport: Warning: No smoothing group information was found in this FBX scene.  Please make sure to enable the 'Export Smoothing Groups' option in the FBX Exporter plug-in before exporting the file.  Even for tools that don't support smoothing groups, the FBX Exporter will generate appropriate smoothing data at export-time so that correct vertex normals can be inferred while importing. 
+[2022.10.05-19.59.19:919][647]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-19.59.19:925][647]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-19.59.29:125][163]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-19.59.29:125][163]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-19.59.29:125][163]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_0
+[2022.10.05-19.59.29:991][259]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-19.59.29:991][259]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-19.59.29:992][259]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_1
+[2022.10.05-20.02.48:963][792]Cmd: MODE GRID=0
+[2022.10.05-20.03.00:964][120]Cmd: MODE GRID=1
+[2022.10.05-20.03.18:783][164]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.18:783][164]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.19:124][175]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.19:124][175]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.19:432][195]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.19:432][195]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.19:722][228]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.19:722][228]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.19:988][258]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.19:988][258]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.20:204][282]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.20:205][282]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.20:686][338]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.20:686][338]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.21:188][397]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.21:188][397]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.21:814][471]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.21:814][471]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.22:148][510]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.22:148][510]LogEditorTransaction: Undo Rotate Elements
+[2022.10.05-20.03.22:474][548]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.22:474][548]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.22:849][592]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.22:849][592]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.23:125][624]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.23:125][624]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.23:433][660]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.23:433][660]LogEditorTransaction: Undo Rotate Elements
+[2022.10.05-20.03.23:716][693]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.23:717][693]LogEditorTransaction: Undo Rotate Elements
+[2022.10.05-20.03.24:025][729]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.24:025][729]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.24:318][763]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.24:318][763]LogEditorTransaction: Undo Create Actors
+[2022.10.05-20.03.29:228][331]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.03.29:228][331]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.03.29:228][331]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_2
+[2022.10.05-20.03.30:055][424]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.03.30:055][424]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.03.30:056][424]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_8
+[2022.10.05-20.03.55:550][181]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.55:550][181]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.03.55:946][192]Cmd: TRANSACTION UNDO
+[2022.10.05-20.03.55:946][192]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.04.00:595][730]Cmd: TRANSACTION UNDO
+[2022.10.05-20.04.00:595][730]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.04.01:055][745]Cmd: TRANSACTION UNDO
+[2022.10.05-20.04.01:055][745]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.04.01:406][782]Cmd: TRANSACTION UNDO
+[2022.10.05-20.04.01:406][782]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.04.01:757][823]Cmd: TRANSACTION UNDO
+[2022.10.05-20.04.01:757][823]LogEditorTransaction: Undo Create Actors
+[2022.10.05-20.04.06:345][360]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.04.06:345][360]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.04.06:346][360]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_13
+[2022.10.05-20.04.07:044][434]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.04.07:044][434]LogActorFactory: Actor Factory attempting to spawn StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.04.07:045][434]LogActorFactory: Actor Factory spawned StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01 as actor: StaticMeshActor /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse:PersistentLevel.StaticMeshActor_18
+[2022.10.05-20.05.18:921][741]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.10.05-20.05.18:989][741]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto3
+[2022.10.05-20.05.18:989][741]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_Auto3DB0435BF48EF4EF0AA8FC99B930F899E.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto3.umap'
+[2022.10.05-20.05.18:997][741]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse' took 0.087
+[2022.10.05-20.05.18:997][741]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.087
+[2022.10.05-20.05.18:999][741]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FNV/meshes/clutter/junk/Telephone01] ([1] browsable assets)...
+[2022.10.05-20.05.19:006][741]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01]
+[2022.10.05-20.05.19:007][741]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/meshes/clutter/junk/Telephone01]
+[2022.10.05-20.05.19:012][741]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/meshes/clutter/junk/Telephone01_Auto3
+[2022.10.05-20.05.19:012][741]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Telephone01_Auto31FCE6DE44F51601796B87AB32BEAC0D5.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/meshes/clutter/junk/Telephone01_Auto3.uasset'
+[2022.10.05-20.05.19:012][741]LogFileHelpers: Auto-saving content packages took 0.015
+[2022.10.05-20.05.50:033][278]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\CJCBa\Downloads\telephone01_n.png)
+[2022.10.05-20.05.50:069][278]LogTexture: Display: Building textures: /Game/FNV/textures/clutter/junk/telephone01_n.telephone01_n (TFO_BC5, 128X128 X1X1) (Required Memory Estimate: 0.3125 MB), EncodeSpeed: Fast
+[2022.10.05-20.05.50:069][278]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 C:\Users\CJCBa\Downloads\telephone01.png)
+[2022.10.05-20.05.50:082][278]LogTexture: Display: Building textures: /Game/FNV/textures/clutter/junk/telephone01.telephone01 (TFO_AutoDXT, 256X256 X1X1) (Required Memory Estimate: 1.250 MB), EncodeSpeed: Fast
+[2022.10.05-20.05.53:377][441]LogContentBrowser: Deferred new asset file creation: telephone01_Mat
+[2022.10.05-20.05.53:394][441]LogContentBrowser: Creating deferred item: telephone01_Mat
+[2022.10.05-20.05.53:406][442]LogContentBrowser: Renaming the item being created (Deferred Item: telephone01_Mat).
+[2022.10.05-20.05.54:285][546]LogContentBrowser: Attempting asset rename: telephone01_Mat -> telephone01_Mat
+[2022.10.05-20.05.54:290][546]LogMaterial: Display: Missing cached shadermap for telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E6AD9538153E263324D7C131A5B85ECF692AFFAD), compiling. 
+[2022.10.05-20.05.54:295][546]LogContentBrowser: End creating deferred item telephone01_Mat
+[2022.10.05-20.05.56:132][681]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/junk/telephone01_Mat.telephone01_Mat
+[2022.10.05-20.05.56:135][681]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E56516AA7EF6E964897EA5A6BA19CADA67C8953E), compiling. 
+[2022.10.05-20.05.56:157][681]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-20.05.56:273][681]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: B370A4D326BCEEC399181BE667750289B2F0EE1C), compiling. 
+[2022.10.05-20.05.56:278][681]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 31E7C5B5BBD226521E24627C6AF4C7CD2C4C289E), compiling. 
+[2022.10.05-20.05.56:281][681]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 15400CD2008EA394DFE8E24BEFC80E53E858C8C8), compiling. 
+[2022.10.05-20.05.56:310][681]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.05.56:310][681]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.05.56:310][681]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.05.56:311][681]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.05.56:313][681]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.05.56:313][681]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Total job queries 916, among them cache hits 462 (50.44%)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Tracking 323 distinct input hashes that result in 151 distinct outputs (46.75%)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: RAM used: 0.63 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Shaders Compiled: 180
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Jobs assigned 324, completed 323 (99.69%)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Average time worker was idle: 201.43 s
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Time job spent in pending queue: average 4.27 s, longest 31.07 s
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Job execution time: average 5.92 s, max 24.92 s
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Job life time (pending + execution): average 10.20 s, max 42.59
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 321.16 s
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Jobs were issued in 288 batches (only local compilation was used), average 1.12 jobs/batch
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Average processing rate: 1.01 jobs/sec
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Effective parallelization: 4.29 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    5 times, average 16.40 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 16.32 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    5 times, average 15.99 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    5 times, average 15.98 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    5 times, average 13.74 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.75% of total time (compiled   63 times, average 2.35 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.99% of total time (compiled   29 times, average 4.27 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.78% of total time (compiled   38 times, average 3.18 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.95% of total time (compiled    5 times, average 16.40 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.92% of total time (compiled    5 times, average 16.32 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.05.56:314][681]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.05.56:330][681]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-20.05.56:426][683]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-20.05.56:426][683]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.05.56:426][683]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.05.56:426][683]MaterialEditorStats: Shader Count: 1
+[2022.10.05-20.05.59:145][818]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.05.59:145][818]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.05.59:145][818]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.05.59:145][818]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.05.59:705][856]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 4C07C792DFE4031C9A2E93905F13861937885CF0), compiling. 
+[2022.10.05-20.05.59:708][856]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: FE41C52CDDDB51818EA6C20CB3605876A5788A71), compiling. 
+[2022.10.05-20.05.59:712][856]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.05.59:712][856]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.05.59:712][856]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.05.59:712][856]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.05.59:780][858]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.05.59:780][858]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.05.59:780][858]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.05.59:780][858]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.06.05:513][264]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 785A0858D605449EDFAA5BE9F714520D5BA95DB3), compiling. 
+[2022.10.05-20.06.05:519][264]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.06.05:519][264]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.05:519][264]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.05:519][264]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.06.05:570][266]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.06.05:570][266]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.05:570][266]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.05:570][266]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.06.12:448][806]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: D12B6691EAF94A42A49B1FE3D6C2DEE62BC68D1E), compiling. 
+[2022.10.05-20.06.12:453][806]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 37DF1A51B0DAEB66CD450ACAFADF50664E9241B6), compiling. 
+[2022.10.05-20.06.12:456][806]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.06.12:456][806]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.12:456][806]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.12:456][806]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.06.12:484][808]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.06.12:484][808]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.12:484][808]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.12:484][808]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.06.18:013][197]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 110054AC3CA752586C3952BB3B0555429B2DCD1A), compiling. 
+[2022.10.05-20.06.18:016][197]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 143B76DA346ED19CA80CA23FA5469460B02ECDA2), compiling. 
+[2022.10.05-20.06.18:020][197]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6A432DC05AFB7FCD33C21EAB0238798265FE9926), compiling. 
+[2022.10.05-20.06.18:025][197]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.06.18:025][197]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.18:025][197]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.18:025][197]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.06.18:059][199]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.06.18:059][199]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(1)
+[2022.10.05-20.06.18:059][199]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.18:059][199]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.06.20:145][343]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 33ECB0E398C174C76AB3982415606CCB2BA56FE1), compiling. 
+[2022.10.05-20.06.20:148][343]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 2CBEB07F119A71B65B29A854F12DDAB9D559277D), compiling. 
+[2022.10.05-20.06.20:152][343]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.06.20:152][343]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.06.20:152][343]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.20:152][343]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.06.21:304][397]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6D15320AB8D01509F77D467E210D8E6A6AE98E9D), compiling. 
+[2022.10.05-20.06.23:625][467]LogMaterialEditor: Applying material telephone01_Mat
+[2022.10.05-20.06.24:312][467]LogMaterial: Display: Missing cached shadermap for Preview:telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3AE8F64899175003307FB2BE66CA53D127CB6EDE), compiling. 
+[2022.10.05-20.06.24:326][467]LogMaterial: Display: Missing cached shadermap for telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 61EE8DA0E0ED4A547985D8C9B49E5F4E0460B9C2), compiling. 
+[2022.10.05-20.06.24:371][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.10.05-20.06.25:667][467]LogUObjectHash: Compacting FUObjectHashTables data took   0.37ms
+[2022.10.05-20.06.25:678][467]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-20.06.25:678][467]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.06.25:678][467]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.25:678][467]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.06.25:835][478]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.06.25:835][478]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.06.25:835][478]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.25:835][478]MaterialEditorStats: Shader Count: 4
+[2022.10.05-20.06.33:104][993]LogMaterialEditor: Saving and Compiling material telephone01_Mat
+[2022.10.05-20.06.35:191][993]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-20.06.46:063][993]LogStall: Stall detector 'FShaderCompilingManager::BlockOnShaderMapCompletion' complete in 0.001011s (10.886333s overbudget)
+[2022.10.05-20.06.46:087][993]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/junk/telephone01_Mat
+[2022.10.05-20.06.46:087][993]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_Mat6F1FED454DFF18C8F26EDB918207D6A7.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01_Mat.uasset'
+[2022.10.05-20.06.46:098][993]AssetCheck: New page: Asset Save: telephone01_Mat
+[2022.10.05-20.06.46:098][993]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/junk/telephone01_Mat.telephone01_Mat
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: Base pass shader: 548 instructions
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: Base pass vertex shader: 337 instructions
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.06.46:099][993]MaterialEditorStats: Shader Count: 14
+[2022.10.05-20.06.48:453][154]LogSlate: Window 'telephone01_Mat' being destroyed
+[2022.10.05-20.06.48:469][154]LogWorld: UWorld::CleanupWorld for World_16, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.06.48:469][154]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.06.54:352][774]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.06.54:408][774]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-20.06.54:781][774]LogViewport: Scene viewport resized to 1405x902, mode Windowed.
+[2022.10.05-20.07.01:980][219]LogSlate: Window 'Telephone01' being destroyed
+[2022.10.05-20.07.01:987][219]LogSlate: Window 'Telephone01' being destroyed
+[2022.10.05-20.07.02:061][219]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.07.02:061][219]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.15.19:358][762]LogUObjectHash: Compacting FUObjectHashTables data took   0.80ms
+[2022.10.05-20.15.19:426][762]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto4
+[2022.10.05-20.15.19:427][762]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_Auto4BF16B8F2454721F55E423B992182984A.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto4.umap'
+[2022.10.05-20.15.19:435][762]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse' took 0.088
+[2022.10.05-20.15.19:435][762]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.088
+[2022.10.05-20.15.19:435][762]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FNV/meshes/clutter/junk/Telephone01] ([1] browsable assets)...
+[2022.10.05-20.15.19:461][762]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01]
+[2022.10.05-20.15.19:461][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/meshes/clutter/junk/Telephone01]
+[2022.10.05-20.15.19:466][762]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/meshes/clutter/junk/Telephone01_Auto4
+[2022.10.05-20.15.19:466][762]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Telephone01_Auto43FF5ED10420CC2B41E4448BF031F6193.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/meshes/clutter/junk/Telephone01_Auto4.uasset'
+[2022.10.05-20.15.19:467][762]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FNV/textures/clutter/junk/telephone01_n] ([1] browsable assets)...
+[2022.10.05-20.15.19:468][762]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FNV/textures/clutter/junk/telephone01_n.telephone01_n]
+[2022.10.05-20.15.19:468][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/textures/clutter/junk/telephone01_n]
+[2022.10.05-20.15.19:470][762]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/textures/clutter/junk/telephone01_n_Auto4
+[2022.10.05-20.15.19:471][762]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_n_Auto49B038AA0417366AA87838B9576E7D842.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/textures/clutter/junk/telephone01_n_Auto4.uasset'
+[2022.10.05-20.15.19:471][762]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/FNV/textures/clutter/junk/telephone01] ([1] browsable assets)...
+[2022.10.05-20.15.19:473][762]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/FNV/textures/clutter/junk/telephone01.telephone01]
+[2022.10.05-20.15.19:473][762]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/textures/clutter/junk/telephone01]
+[2022.10.05-20.15.19:476][762]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/textures/clutter/junk/telephone01_Auto4
+[2022.10.05-20.15.19:476][762]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_Auto492A1CB1649A07F34E286D9B57D8C05AE.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/textures/clutter/junk/telephone01_Auto4.uasset'
+[2022.10.05-20.15.19:477][762]LogFileHelpers: Auto-saving content packages took 0.042
+[2022.10.05-20.44.26:528][921]LogSlate: Window 'Message' being destroyed
+[2022.10.05-20.44.26:538][921]Message dialog closed, result: Ok, title: Message, text: bForceNoPrecomputedLighting is now enabled, build lighting once to propagate the change (will remove existing precomputed lighting data).
+[2022.10.05-20.44.29:143][171]MapCheck: New page: Map Check
+[2022.10.05-20.44.29:269][171]Cmd: MAP REBUILD ALLVISIBLE
+[2022.10.05-20.44.29:359][171]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.10.05-20.44.29:635][171]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=false
+[2022.10.05-20.44.29:969][171]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.10.05-20.44.29:969][171]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.10.05-20.44.29:969][171]LogNavigationDataBuild: Display:    Building navigation data using WITH_CHAOS.
+[2022.10.05-20.44.29:983][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.67ms
+[2022.10.05-20.44.30:141][171]LogLevel: Display: Export Material TexCoord Scales took 0.136 seconds.
+[2022.10.05-20.44.30:191][171]TextureStreamingBuild: Display: Build Texture Streaming took 0.027 seconds.
+[2022.10.05-20.44.30:204][171]LogUObjectHash: Compacting FUObjectHashTables data took   0.45ms
+[2022.10.05-20.44.30:207][171]LightingResults: New page: Lighting Build - Oct 5, 2022, 12:44:30 PM
+[2022.10.05-20.44.30:207][171]LogStaticLightingSystem: Warning: WorldSettings.bForceNoPrecomputedLighting is true, Skipping Lighting Build!
+[2022.10.05-20.44.30:307][171]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.10.05-20.44.30:307][171]MapCheck: New page: GSDocMitchellHouse - Oct 5, 2022, 12:44:30 PM
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_5 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_9 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_11 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_14 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_16 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_7 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_10 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_15 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_19 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:308][171]MapCheck: Warning: StaticMeshActor_21 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_3 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_6 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_12 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_17 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_22 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_33 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_56 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:309][171]MapCheck: Warning: StaticMeshActor_43 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.44.30:311][171]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 3.726ms to complete.
+[2022.10.05-20.44.30:311][171]LogEditorBuildUtils: Build time 0:01
+[2022.10.05-20.44.37:266][381]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.44.37:274][381]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.45.20:472][963]Cmd: TRANSACTION UNDO
+[2022.10.05-20.45.20:472][963]LogEditorTransaction: Undo Move Elements
+[2022.10.05-20.45.29:200][875]Cmd: TRANSACTION UNDO
+[2022.10.05-20.45.29:200][875]LogEditorTransaction: Undo Clicking on Elements
+[2022.10.05-20.45.47:135][744]MapCheck: New page: Map Check
+[2022.10.05-20.45.47:165][744]Cmd: MAP REBUILD ALLVISIBLE
+[2022.10.05-20.45.47:167][744]LogEditorServer: Rebuildmap Clear paths rebuilt
+[2022.10.05-20.45.47:398][744]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.10.05-20.45.47:398][744]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=false
+[2022.10.05-20.45.47:428][744]LogNavigationDataBuild: Display: UNavigationSystemV1::Build started...
+[2022.10.05-20.45.47:428][744]LogNavigationDataBuild: Display:    Building navigation data using WITH_PHYSX.
+[2022.10.05-20.45.47:428][744]LogNavigationDataBuild: Display:    Building navigation data using WITH_CHAOS.
+[2022.10.05-20.45.47:463][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2022.10.05-20.45.47:510][744]LogLevel: Display: Export Material TexCoord Scales took 0.042 seconds.
+[2022.10.05-20.45.47:514][744]TextureStreamingBuild: Display: Build Texture Streaming took 0.005 seconds.
+[2022.10.05-20.45.47:528][744]LogUObjectHash: Compacting FUObjectHashTables data took   0.48ms
+[2022.10.05-20.45.47:533][744]LightingResults: New page: Lighting Build - Oct 5, 2022, 12:45:47 PM
+[2022.10.05-20.45.47:545][744]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2022.10.05-20.45.47:561][744]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2022.10.05-20.45.47:561][744]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2022.10.05-20.45.47:580][744]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2022.10.05-20.45.47:580][744]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3864
+[2022.10.05-20.45.52:275][744]LogStaticLightingSystem: Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2022.10.05-20.45.52:276][744]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2022.10.05-20.45.52:276][744]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2022.10.05-20.45.52:276][744]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2022.10.05-20.45.52:276][744]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2022.10.05-20.45.52:276][744]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2022.10.05-20.45.52:407][744]Cmd: MAP CHECK DONTDISPLAYDIALOG
+[2022.10.05-20.45.52:407][744]MapCheck: New page: GSDocMitchellHouse - Oct 5, 2022, 12:45:52 PM
+[2022.10.05-20.45.52:407][744]MapCheck: Error: WorldSettings Maps need lighting rebuilt 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_5 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_9 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_11 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_14 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_16 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_7 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:407][744]MapCheck: Warning: StaticMeshActor_10 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_15 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_19 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_21 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_3 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_6 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_12 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_17 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_22 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_33 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_56 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:408][744]MapCheck: Warning: StaticMeshActor_43 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.45.52:410][744]MapCheck: Map check complete: 1 Error(s), 18 Warning(s), took 3.141ms to complete.
+[2022.10.05-20.45.52:410][744]LogEditorBuildUtils: Build time 0:05
+[2022.10.05-20.45.52:568][744]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 15F4103E02EA7BE40807B94CB44726141F583D61), compiling. 
+[2022.10.05-20.45.52:585][744]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 6671DDB76FC793E792EF6BABDE5D550AF0F43D0E), compiling. 
+[2022.10.05-20.45.52:604][744]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 565BBCB33B25C743BB2CFC61227F5FA62418F028), compiling. 
+[2022.10.05-20.45.52:638][744]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.45.52:638][744]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-20.45.52:638][744]LogShaderCompilers: Display: Total job queries 970, among them cache hits 498 (51.34%)
+[2022.10.05-20.45.52:638][744]LogShaderCompilers: Display: Tracking 340 distinct input hashes that result in 152 distinct outputs (44.71%)
+[2022.10.05-20.45.52:638][744]LogShaderCompilers: Display: RAM used: 0.64 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Shaders Compiled: 180
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Jobs assigned 340, completed 340 (100.00%)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Average time worker was idle: 203.95 s
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Time job spent in pending queue: average 4.10 s, longest 31.07 s
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Job execution time: average 5.97 s, max 24.92 s
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Job life time (pending + execution): average 10.07 s, max 42.59
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 342.60 s
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Jobs were issued in 304 batches (only local compilation was used), average 1.12 jobs/batch
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Average processing rate: 0.99 jobs/sec
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Effective parallelization: 4.35 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    5 times, average 16.32 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    5 times, average 15.98 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 15.28 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    6 times, average 13.40 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 10.17% of total time (compiled   65 times, average 2.33 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 9.21% of total time (compiled   32 times, average 4.29 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.89% of total time (compiled   39 times, average 3.40 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 6.29% of total time (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight - 6.15% of total time (compiled    6 times, average 15.28 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.45.52:639][744]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.45.52:741][745]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 97CEFA28730568AB34804709F3378C18392CFA67), compiling. 
+[2022.10.05-20.45.52:753][745]LogMaterial: Display: Missing cached shadermap for FLightmassMaterialRenderer telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7236B2A545E91A8D35FC3A1DE6119AE3DD41BEDC), compiling. 
+[2022.10.05-20.45.55:783][746]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-20.45.55:783][746]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.002022s (0.946914s overbudget)
+[2022.10.05-20.45.55:954][751]LogUObjectHash: Compacting FUObjectHashTables data took   0.56ms
+[2022.10.05-20.45.59:540][889]LightingResults: Warning: NVCraftsmanRmWall02B_8 Object has overlapping UVs.
+[2022.10.05-20.45.59:540][889]LightingResults: NVCraftsmanRmWall02B_8 Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.10.05-20.46.00:310][924]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.46.00:321][924]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.46.00:542][933]LightingResults: Warning: NVCraftsmanRmWall02B_8 Object has overlapping UVs.
+[2022.10.05-20.46.00:542][933]LightingResults: NVCraftsmanRmWall02B_8 Lightmap UV are overlapping by 2.8%. Please adjust content - Enable Error Coloring to visualize.
+[2022.10.05-20.46.01:658][994]Job is a success!
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport: Imported Volumetric Lightmap in 0.011s
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:      Indirection Texture 16x16x16 = 0.0Mb
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:      BrickData (all levels) 0.0Mb (trimmed 0.0Mb due to 0.010000 MinBrickError)
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:      Bricks at depth
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:          0: 10.0% covering 100.0% of volume
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:          1: 10.0% covering 1.6% of volume
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:          2: 80.0% covering 0.2% of volume
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:      Bricks in each level
+[2022.10.05-20.46.01:804][995]LogVolumetricLightmapImport:          GSDocMitchellHouse 			 10 bricks 	 100.0% (Persistent Level)
+[2022.10.05-20.46.01:944][995]LightingResults: Warning: PointLight_5 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-20.46.01:944][995]LightingResults: Warning: PointLight_6 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-20.46.01:944][995]LightingResults: Warning: PointLight_7 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-20.46.01:944][995]LightingResults: Warning: PointLight_0 Severe performance loss: Failed to allocate shadowmap channel for stationary light due to overlap - light will fall back to dynamic shadows!
+[2022.10.05-20.46.02:034][995]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:HQ_Lightmap0_1 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-20.46.02:084][995]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:LQ_Lightmap_0_1 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-20.46.02:133][995]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:HQ_Lightmap0_2 (TFO_AutoDXT, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-20.46.02:169][995]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:LQ_Lightmap_0_2 (TFO_DXT1, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-20.46.02:504][995]LogTexture: Display: Building textures: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData:ShadowMapTexture2D_2 (BGRA8, 1024X1024 X1X1) (Required Memory Estimate: 26.66666 MB), EncodeSpeed: Fast
+[2022.10.05-20.46.02:567][995]Lightmass on CONNORTCM: 5.63 sec total, 321 ms importing, 37 ms setup, 617 ms photons, 4.64 sec processing, 0 us extra exporting [193/193 mappings]. Threads: 1:09 min total, 47.9 sec processing.
+[2022.10.05-20.46.02:585][995]LogStaticLightingSystem: GSDocMitchellHouse_BuiltData storing lightmap data for 193 meshes in 4 LightmapResourceClusters (48.2 Meshes per cluster).
+[2022.10.05-20.46.02:630][995]LogMaterial: Display: Material /Game/FNV/textures/clutter/junk/telephone01_Mat.telephone01_Mat needed to have new flag set bUsedWithStaticLighting !
+[2022.10.05-20.46.02:637][995]LogMaterial: Display: Missing cached shadermap for telephone01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F52281F26B6895528D56BC1636AAD1294D1D88C1), compiling. 
+[2022.10.05-20.46.02:752][995]LogUObjectHash: Compacting FUObjectHashTables data took   0.73ms
+[2022.10.05-20.46.02:782][995]LogStaticLightingSystem: Illumination: 15.2 sec (291 ms encoding lightmaps, 293 ms encoding shadowmaps)
+[2022.10.05-20.46.02:782][995]LogStaticLightingSystem: Lightmap texture memory:  4.1 MB (4.1 MB streaming, 0.0 MB non-streaming), 4 textures
+[2022.10.05-20.46.02:782][995]LogStaticLightingSystem: Shadowmap texture memory: 5.4 MB (5.4 MB streaming, 0.0 MB non-streaming), 1 textures
+[2022.10.05-20.46.03:290][995]DumpUnbuiltLightIteractions
+[2022.10.05-20.46.03:290][995]Lights with unbuilt interactions: 0
+[2022.10.05-20.46.03:290][995]
+[2022.10.05-20.46.03:290][995]Primitives with unbuilt interactions: 0
+[2022.10.05-20.46.16:124][995]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' exceeded budget of 2.000000s
+[2022.10.05-20.46.16:161][995]LogStall: Stall detector 'FShaderCompilingManager::BlockOnAllShaderMapCompletion' complete in 0.004144s (10.869937s overbudget)
+[2022.10.05-20.46.16:200][996]Cmd: MAP CHECK NOTIFYRESULTS
+[2022.10.05-20.46.16:200][996]MapCheck: New page: GSDocMitchellHouse - Oct 5, 2022, 12:46:16 PM
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_5 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_9 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_11 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_14 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_16 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_7 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_10 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_15 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_19 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_21 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_3 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_6 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_12 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:201][996]MapCheck: Warning: StaticMeshActor_17 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:202][996]MapCheck: Warning: StaticMeshActor_22 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:202][996]MapCheck: Warning: StaticMeshActor_33 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:202][996]MapCheck: Warning: StaticMeshActor_56 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:202][996]MapCheck: Warning: StaticMeshActor_43 Static mesh actor has NULL StaticMesh property 
+[2022.10.05-20.46.16:203][996]MapCheck: Map check complete: 0 Error(s), 18 Warning(s), took 2.931ms to complete.
+[2022.10.05-20.46.18:388][136]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.46.18:402][136]LogSlate: Window 'Message Log' being destroyed
+[2022.10.05-20.46.25:477][829]LogUObjectHash: Compacting FUObjectHashTables data took   0.55ms
+[2022.10.05-20.46.25:549][829]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto5
+[2022.10.05-20.46.25:549][829]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_Auto58CF1699B468C6E4CFE21BD9C93B12672.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_Auto5.umap'
+[2022.10.05-20.46.25:557][829]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse' took 0.090
+[2022.10.05-20.46.25:557][829]LogFileHelpers: Editor autosave (incl. sublevels & external actors) for all levels took 0.090
+[2022.10.05-20.46.25:558][829]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/FNV/textures/clutter/junk/telephone01_Mat] ([1] browsable assets)...
+[2022.10.05-20.46.25:558][829]OBJ SavePackage: Finished generating thumbnails for package [/Game/FNV/textures/clutter/junk/telephone01_Mat]
+[2022.10.05-20.46.25:561][829]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/FNV/textures/clutter/junk/telephone01_Mat_Auto5
+[2022.10.05-20.46.25:561][829]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_Mat_Auto590CE2B594DDE6E573D8A3281F57F10FC.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Autosaves/Game/FNV/textures/clutter/junk/telephone01_Mat_Auto5.uasset'
+[2022.10.05-20.46.25:561][829]LogFileHelpers: Auto-saving content packages took 0.004
+[2022.10.05-20.49.38:862][161]LogEditorViewport: Clicking Background
+[2022.10.05-20.52.28:599][936]LogViewport: Scene viewport resized to 1526x902, mode Windowed.
+[2022.10.05-20.52.29:816][ 75]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2022.10.05-20.52.29:826][ 75]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2022.10.05-20.52.29:826][ 75]PIE: New page: PIE session: GSDocMitchellHouse (Oct 5, 2022, 12:52:29 PM)
+[2022.10.05-20.52.29:847][ 75]LogPlayLevel: Creating play world package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-20.52.29:867][ 75]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020008s)
+[2022.10.05-20.52.29:867][ 75]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse to /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse (0.020204s)
+[2022.10.05-20.52.29:867][ 75]LogSubsystemCollection: Failed to initialize subsystem dependency (WorldPartitionSubsystem)
+[2022.10.05-20.52.29:867][ 75]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-20.52.29:868][ 75]LogAIModule: Creating AISystem for world GSDocMitchellHouse
+[2022.10.05-20.52.29:873][ 75]LogPlayLevel: PIE: World Init took: (0.005921s)
+[2022.10.05-20.52.29:883][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.10.05-20.52.29:888][ 75]LogAudio: Display: Creating Audio Device:                 Id: 5, Scope: Unique, Realtime: True
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Max Channels (voices):				  0
+[2022.10.05-20.52.29:888][ 75]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2022.10.05-20.52.29:888][ 75]LogAudio: Display: AudioDevice MaxSources: 32
+[2022.10.05-20.52.29:889][ 75]LogAudio: Display: Audio Spatialization Plugin: Resonance Audio is external send: 1
+[2022.10.05-20.52.29:889][ 75]LogAudio: Display: Audio Reverb Plugin: Resonance Audio
+[2022.10.05-20.52.29:889][ 75]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2022.10.05-20.52.29:908][ 75]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2022.10.05-20.52.29:947][ 75]LogAudioMixer: Display: Using Audio Hardware Device Speakers (G935 Gaming Headset)
+[2022.10.05-20.52.29:947][ 75]LogAudioMixer: Display: Initializing Sound Submixes...
+[2022.10.05-20.52.29:947][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2022.10.05-20.52.29:947][ 75]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2022.10.05-20.52.29:948][ 75]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=5
+[2022.10.05-20.52.29:949][ 75]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=5
+[2022.10.05-20.52.29:950][ 75]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=5
+[2022.10.05-20.52.29:950][ 75]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=5
+[2022.10.05-20.52.29:950][ 75]LogInit: FAudioDevice initialized.
+[2022.10.05-20.52.29:950][ 75]LogAudio: Display: Audio Device (ID: 5) registered with world 'GSDocMitchellHouse'.
+[2022.10.05-20.52.29:971][ 75]LogLoad: Game class is 'BP_FirstPersonGameMode_C'
+[2022.10.05-20.52.29:990][ 75]LogWorld: Bringing World /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse.GSDocMitchellHouse up for play (max tick rate 0) at 2022.10.05-16.52.29
+[2022.10.05-20.52.29:991][ 75]LogWorld: Bringing up level for play took: 0.009628
+[2022.10.05-20.52.29:993][ 75]LogOnline: OSS: Created online subsystem instance for: :Context_22
+[2022.10.05-20.52.30:006][ 75]PIE: Server logged in
+[2022.10.05-20.52.30:007][ 75]PIE: Play in editor total start time 0.181 seconds.
+[2022.10.05-20.52.30:046][ 75]LogResonanceAudio: Display: Resonance Audio Listener is initialized
+[2022.10.05-20.52.45:835][948]LogDerivedDataCache: C:/Users/CJCBa/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:05.482 and deleted 0 file(s) with total size 0 MiB.
+[2022.10.05-20.53.56:657][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-20.53.56:657][434]LogWorld: BeginTearingDown for /Game/FNV/cells/Interiors/GSDocMitchellHouse/UEDPIE_0_GSDocMitchellHouse
+[2022.10.05-20.53.56:658][434]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.53.56:659][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.53.56:675][434]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2022.10.05-20.53.56:678][434]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.53.56:686][434]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2022.10.05-20.53.56:688][434]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.10.05-20.53.56:688][434]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.05-20.53.56:689][434]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=5
+[2022.10.05-20.53.56:698][434]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2022.10.05-20.53.56:725][435]LogPlayLevel: Display: Destroying online subsystem :Context_22
+[2022.10.05-20.54.25:980][835]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorfloor_1_Mat.nvcraftsmanhomes_interiorfloor_1_Mat
+[2022.10.05-20.54.25:983][835]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: C0CF50176EA5AF03E3D29DA498A4BE5563E87474), compiling. 
+[2022.10.05-20.54.26:008][835]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: Total job queries 1009, among them cache hits 524 (51.93%)
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: Tracking 353 distinct input hashes that result in 152 distinct outputs (43.06%)
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: RAM used: 0.64 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: Shaders Compiled: 205
+[2022.10.05-20.54.26:010][835]LogShaderCompilers: Display: Jobs assigned 353, completed 353 (100.00%)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Average time worker was idle: 256.37 s
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Time job spent in pending queue: average 3.97 s, longest 31.07 s
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Job execution time: average 6.04 s, max 24.92 s
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Job life time (pending + execution): average 10.01 s, max 42.59
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 359.01 s
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Jobs were issued in 317 batches (only local compilation was used), average 1.11 jobs/batch
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Average processing rate: 0.98 jobs/sec
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Effective parallelization: 4.41 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 15.34 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 15.28 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    6 times, average 13.40 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.79% of total time (compiled   67 times, average 2.32 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.67% of total time (compiled   32 times, average 4.29 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.55% of total time (compiled   41 times, average 3.30 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.93% of total time (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.92% of total time (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.54.26:011][835]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.54.26:280][835]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FDA1E15F7760C19EB565DF66D954E4BC831B5989), compiling. 
+[2022.10.05-20.54.26:285][835]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3FD6F9E76E3A007868216A61AFF9930DE194B54A), compiling. 
+[2022.10.05-20.54.26:288][835]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: C5055A2A32A91168422762A9261956ED3FE8837C), compiling. 
+[2022.10.05-20.54.26:291][835]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 7E7D1EBE6A912D50E6E86D73649E24E3E78F0115), compiling. 
+[2022.10.05-20.54.26:312][835]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.54.26:312][835]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.26:312][835]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.26:312][835]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.54.26:498][835]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-20.54.26:875][837]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.54.26:875][837]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.26:875][837]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.26:875][837]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.54.30:259][216]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 8B17D89AF873FD97D1F0096E4A277A412DA440AF), compiling. 
+[2022.10.05-20.54.30:266][216]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: F29D4C0F0A7580ECF3E6952E1AC0B05138C15830), compiling. 
+[2022.10.05-20.54.30:270][216]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.54.30:270][216]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.30:270][216]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.30:270][216]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.54.30:285][218]MaterialEditorStats: Texture samplers: 6/16
+[2022.10.05-20.54.30:285][218]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.30:285][218]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.30:285][218]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.54.38:327][161]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: FE19A4D596BBB20FA00F08900565E31E5AB82434), compiling. 
+[2022.10.05-20.54.38:332][161]LogMaterial: Display: Missing cached shadermap for Preview:nvcraftsmanhomes_interiorfloor_1_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 7E0297CD6DFC16B88CA473AE0A23128424B7A348), compiling. 
+[2022.10.05-20.54.38:335][161]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.54.38:335][161]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.38:335][161]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.38:335][161]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.54.38:350][163]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.54.38:351][163]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.54.38:351][163]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.54.38:351][163]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.54.47:320][905]LogSlate: Window 'Message' being destroyed
+[2022.10.05-20.54.47:328][905]Message dialog closed, result: No, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/FNV/textures/dungeons/nv_craftsmanhomesinterior/nvcraftsmanhomes_interiorfloor_1_Mat.nvcraftsmanhomes_interiorfloor_1_Mat
+(Selecting 'No' will cause all changes to be lost!)
+[2022.10.05-20.54.47:367][905]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.54.47:367][905]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.55.09:608][468]LogAssetEditorSubsystem: Opening Asset editor for Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-20.55.09:613][468]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 392EDCDD678D7B6C08039290682193F72719A5FA), compiling. 
+[2022.10.05-20.55.09:698][468]LogChaos: FPhysicsSolverBase::AsyncDt:-1.000000
+[2022.10.05-20.55.09:773][468]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 0BC591755AD7580781CB2528B67C507D454B3C14), compiling. 
+[2022.10.05-20.55.09:779][468]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: E126F7A5E7F4A1233F1B72AFD01393319C98C146), compiling. 
+[2022.10.05-20.55.09:782][468]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: D5B9349A159AECA489EF47BC0583EBD899BA4103), compiling. 
+[2022.10.05-20.55.09:784][468]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_1 in PCD3D_SM5, Default, SM5 (DDC key hash: 42AD74F11345B184E32E5452A47EF11827EBC4E3), compiling. 
+[2022.10.05-20.55.09:805][468]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.55.09:805][468]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.09:805][468]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.09:805][468]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.55.09:810][468]LogViewport: Scene viewport resized to 376x449, mode Windowed.
+[2022.10.05-20.55.09:906][470]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.55.09:907][470]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.09:907][470]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.09:907][470]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.55.11:463][635]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 367CEC6CD9E149F21755EE97A5E4904A840BC6FD), compiling. 
+[2022.10.05-20.55.11:466][635]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.55.11:466][635]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.11:466][635]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.11:466][635]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.55.11:499][637]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-20.55.11:499][637]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.11:499][637]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.11:499][637]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.55.11:522][638]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.55.11:522][638]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.11:522][638]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.11:522][638]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.55.12:010][693]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 27503674C6FBF9CDD4D9FAED557A20CD57E481E3), compiling. 
+[2022.10.05-20.55.12:013][693]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.55.12:013][693]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.12:013][693]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.12:013][693]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.55.12:047][695]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-20.55.12:047][695]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.12:047][695]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.12:047][695]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.55.12:070][696]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.55.12:070][696]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.12:070][696]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.12:070][696]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.55.17:933][361]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5C70C4A2065B5B333AB72095AC38CC2E82D3D72F), compiling. 
+[2022.10.05-20.55.17:935][361]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.55.17:935][361]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.17:936][361]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.17:936][361]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.55.17:968][363]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-20.55.17:968][363]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.17:968][363]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.17:968][363]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.55.17:990][364]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.55.17:990][364]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.17:990][364]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.17:990][364]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.55.28:871][580]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 47E746DE02B19E3A9BD75739E1BDF7074F2BC6AC), compiling. 
+[2022.10.05-20.55.28:875][580]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.55.28:875][580]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.28:875][580]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.28:875][580]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.55.32:470][853]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-20.55.32:470][853]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.32:470][853]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.32:470][853]MaterialEditorStats: Shader Count: 1
+[2022.10.05-20.55.34:676][ 71]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.55.34:676][ 71]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.34:676][ 71]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.34:676][ 71]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.55.52:360][ 68]LogMaterialEditor: Applying material tenpennyrugs01_Mat
+[2022.10.05-20.55.54:004][ 68]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 364A1C7E8728ED7B0B604E01D2F4BBEC3DC4F5B7), compiling. 
+[2022.10.05-20.55.54:018][ 68]LogMaterial: Display: Missing cached shadermap for tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 3729B9C5D3EFDA6BCC4955BACF6B036B83A29FE1), compiling. 
+[2022.10.05-20.55.54:074][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2022.10.05-20.55.56:164][ 68]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2022.10.05-20.55.56:177][ 68]MaterialEditorStats: Texture samplers: 2/16
+[2022.10.05-20.55.56:177][ 68]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.56:177][ 68]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.56:177][ 68]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.55.58:130][228]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.55.58:130][228]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.55.58:130][228]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.55.58:130][228]MaterialEditorStats: Shader Count: 4
+[2022.10.05-20.56.10:265][554]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 5A15F40479C978F547CAEC01780EE89AB919D13C), compiling. 
+[2022.10.05-20.56.10:268][554]LogMaterial: Display: Missing cached shadermap for FMatExpressionPreview MaterialExpressionTextureSample_0 in PCD3D_SM5, Default, SM5 (DDC key hash: 59F7F4E14CE0828EFE0BD2090F51C65562DC8AAD), compiling. 
+[2022.10.05-20.56.10:275][554]MaterialEditorStats: Texture samplers: 0/16
+[2022.10.05-20.56.10:275][554]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.56.10:275][554]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.56.10:275][554]MaterialEditorStats: Shader Count: 0
+[2022.10.05-20.56.10:335][556]MaterialEditorStats: Texture samplers: 1/16
+[2022.10.05-20.56.10:335][556]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.56.10:335][556]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.56.10:335][556]MaterialEditorStats: Shader Count: 2
+[2022.10.05-20.56.10:363][557]MaterialEditorStats: Texture samplers: 4/16
+[2022.10.05-20.56.10:363][557]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.56.10:363][557]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.56.10:363][557]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.56.14:580][  1]LogMaterialEditor: Applying material tenpennyrugs01_Mat
+[2022.10.05-20.56.15:239][  1]LogMaterial: Display: Missing cached shadermap for Preview:tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: A863AC669F49F7B33F2B666153F4401C42CAA959), compiling. 
+[2022.10.05-20.56.15:260][  1]LogMaterial: Display: Missing cached shadermap for tenpennyrugs01_Mat in PCD3D_SM5, Default, SM5 (DDC key hash: 327DF95BDBEBD9CF0CDB0CD0C34CEF56CEA68B00), compiling. 
+[2022.10.05-20.56.15:274][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.41ms
+[2022.10.05-20.56.15:523][  1]LogUObjectHash: Compacting FUObjectHashTables data took   0.47ms
+[2022.10.05-20.56.15:533][  1]MaterialEditorStats: Texture samplers: 5/16
+[2022.10.05-20.56.15:533][  1]MaterialEditorStats: Texture Lookups (Est.): VS(3), PS(2)
+[2022.10.05-20.56.15:533][  1]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2022.10.05-20.56.15:533][  1]MaterialEditorStats: Shader Count: 10
+[2022.10.05-20.56.22:154][768]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.56.22:154][768]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2022.10.05-20.57.38:182][138]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2022.10.05-20.57.38:253][138]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse
+[2022.10.05-20.57.38:254][138]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouseA47AFED240733224581F73B2BABD8CB1.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.umap'
+[2022.10.05-20.57.38:269][138]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-20.57.38:591][138]LogSavePackage: Moving output files for package: /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-20.57.38:592][138]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/GSDocMitchellHouse_BuiltData586F422E48B09A4C9E4620A98F775B67.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.uasset'
+[2022.10.05-20.57.38:594][138]Message dialog closed, result: Ok, title: Unable to Check Out From Source Control!, text: The following assets could not be successfully checked out from source control:
+/Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData
+[2022.10.05-20.57.38:607][138]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.05-20.57.38:607][138]LogContentValidation: Display: Validating World /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse.GSDocMitchellHouse
+[2022.10.05-20.57.38:607][138]LogContentValidation: Display: Validating MapBuildDataRegistry /Game/FNV/cells/Interiors/GSDocMitchellHouse/GSDocMitchellHouse_BuiltData.GSDocMitchellHouse_BuiltData
+[2022.10.05-20.57.39:337][225]LogUObjectHash: Compacting FUObjectHashTables data took   0.54ms
+[2022.10.05-20.57.41:163][225]LogSlate: Window 'Save Content' being destroyed
+[2022.10.05-20.57.41:224][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/meshes/clutter/junk/Telephone01" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/meshes/clutter/junk/Telephone01.uasset" SILENT=true
+[2022.10.05-20.57.41:228][225]LogSavePackage: Moving output files for package: /Game/FNV/meshes/clutter/junk/Telephone01
+[2022.10.05-20.57.41:228][225]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/Telephone014E205B084F5595D1E58738B0E65C7379.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/meshes/clutter/junk/Telephone01.uasset'
+[2022.10.05-20.57.41:230][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/textures/clutter/junk/telephone01" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01.uasset" SILENT=true
+[2022.10.05-20.57.41:252][225]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/junk/telephone01
+[2022.10.05-20.57.41:252][225]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone0117EE0D074B29ED0589A30EA93375A873.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01.uasset'
+[2022.10.05-20.57.41:256][225]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/junk/telephone01_Mat
+[2022.10.05-20.57.41:257][225]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_MatEEF0EA314D16537280B56F856ABEF471.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01_Mat.uasset'
+[2022.10.05-20.57.41:260][225]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/FNV/textures/clutter/junk/telephone01_n" FILE="C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01_n.uasset" SILENT=true
+[2022.10.05-20.57.41:265][225]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/junk/telephone01_n
+[2022.10.05-20.57.41:265][225]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/telephone01_n8BD9BF214D1456C34FF9A7B593C0A3CD.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/junk/telephone01_n.uasset'
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Total job queries 1209, among them cache hits 718 (59.39%)
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Tracking 359 distinct input hashes that result in 152 distinct outputs (42.34%)
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: RAM used: 0.64 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Shaders Compiled: 207
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Jobs assigned 359, completed 359 (100.00%)
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Average time worker was idle: 258.80 s
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Time job spent in pending queue: average 3.91 s, longest 31.07 s
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Job execution time: average 5.99 s, max 24.92 s
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Job life time (pending + execution): average 9.90 s, max 42.59
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 368.85 s
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Jobs were issued in 323 batches (only local compilation was used), average 1.11 jobs/batch
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Average processing rate: 0.97 jobs/sec
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Effective parallelization: 4.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.57.41:422][225]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 15.34 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 15.28 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    6 times, average 13.40 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.81% of total time (compiled   68 times, average 2.31 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.84% of total time (compiled   33 times, average 4.28 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.47% of total time (compiled   41 times, average 3.30 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.87% of total time (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.87% of total time (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.57.41:423][225]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.57.41:453][225]LogSavePackage: Moving output files for package: /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat
+[2022.10.05-20.57.41:454][225]LogSavePackage: Moving 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Saved/tenpennyrugs01_MatF2025E834CF26EFB6F923A88571F7AC7.tmp' to 'C:/Users/CJCBa/Documents/Unreal Projects/FalloutWorld/Content/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.uasset'
+[2022.10.05-20.57.41:462][225]LogStall: Shutdown...
+[2022.10.05-20.57.41:492][225]LogStall: Shutdown complete.
+[2022.10.05-20.57.41:573][225]LogSlate: Window 'FalloutWorld - Unreal Editor' being destroyed
+[2022.10.05-20.57.41:892][225]AssetCheck: New page: Asset Save: multiple assets
+[2022.10.05-20.57.41:892][225]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/questitems/tenpennyrugs01_Mat.tenpennyrugs01_Mat
+[2022.10.05-20.57.41:892][225]LogContentValidation: Display: Validating Material /Game/FNV/textures/clutter/junk/telephone01_Mat.telephone01_Mat
+[2022.10.05-20.57.41:892][225]LogContentValidation: Display: Validating StaticMesh /Game/FNV/meshes/clutter/junk/Telephone01.Telephone01
+[2022.10.05-20.57.41:892][225]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/junk/telephone01.telephone01
+[2022.10.05-20.57.41:892][225]LogContentValidation: Display: Validating Texture2D /Game/FNV/textures/clutter/junk/telephone01_n.telephone01_n
+[2022.10.05-20.57.41:893][226]Cmd: QUIT_EDITOR
+[2022.10.05-20.57.41:893][226]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2022.10.05-20.57.41:996][226]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2022.10.05-20.57.42:027][226]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2022.10.05-20.57.42:028][226]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2022.10.05-20.57.43:481][226]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2022.10.05-20.57.43:481][226]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2022.10.05-20.57.43:481][226]LogAudio: Display: Audio Device unregistered from world 'GSDocMitchellHouse'.
+[2022.10.05-20.57.43:481][226]LogResonanceAudio: Display: Resonance Audio Listener is shutdown
+[2022.10.05-20.57.43:481][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.10.05-20.57.43:484][226]LogAudioMixer: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1
+[2022.10.05-20.57.43:504][226]LogAudio: Display: Audio Device Manager Shutdown
+[2022.10.05-20.57.43:505][226]LogWindowsTextInputMethodSystem: Activated input method: English (United States) - (Keyboard).
+[2022.10.05-20.57.43:563][226]LogExit: Preparing to exit.
+[2022.10.05-20.57.43:817][226]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2022.10.05-20.57.45:381][226]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.57.45:381][226]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.57.45:381][226]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.57.45:705][226]LogWorld: Warning: UWorld::CleanupWorld called twice or called without InitWorld called first.
+[2022.10.05-20.57.45:705][226]LogWorld: UWorld::CleanupWorld for GSDocMitchellHouse, bSessionEnded=true, bCleanupResources=true
+[2022.10.05-20.57.46:261][226]LogDemo: Cleaned up 0 splitscreen connections with owner deletion
+[2022.10.05-20.57.46:413][226]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2022.10.05-20.57.46:477][226]LogExit: Editor shut down
+[2022.10.05-20.57.46:530][226]LogExit: Transaction tracking system shut down
+[2022.10.05-20.57.50:867][226]LogExit: Object subsystem successfully closed.
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: Total job queries 1209, among them cache hits 718 (59.39%)
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: Tracking 359 distinct input hashes that result in 152 distinct outputs (42.34%)
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: RAM used: 0.64 MB (0.00 GB) of 819.20 MB (0.80 GB) budget. Usage: 0.08%
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: Shaders Compiled: 207
+[2022.10.05-20.57.50:884][226]LogShaderCompilers: Display: Jobs assigned 359, completed 359 (100.00%)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Average time worker was idle: 258.80 s
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Time job spent in pending queue: average 3.91 s, longest 31.07 s
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Job execution time: average 5.99 s, max 24.92 s
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Job life time (pending + execution): average 9.90 s, max 42.59
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 368.85 s
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Jobs were issued in 323 batches (only local compilation was used), average 1.11 jobs/batch
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Average processing rate: 0.97 jobs/sec
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Effective parallelization: 4.33 (times faster than compiling all shaders on one thread). Compare with number of workers: 8
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:                         TBasePassPSTLightMapPolicyLQSkylight (compiled    6 times, average 15.34 sec, max 23.82 sec, min 10.12 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:        TBasePassPSFCachedPointIndirectLightingPolicySkylight (compiled    6 times, average 15.28 sec, max 24.49 sec, min 10.24 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:                TBasePassPSFCachedPointIndirectLightingPolicy (compiled    6 times, average 13.40 sec, max 22.87 sec, min 8.02 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:                                 TBasePassVSFNoLightMapPolicy - 9.81% of total time (compiled   68 times, average 2.31 sec, max 4.15 sec, min 1.03 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 8.84% of total time (compiled   33 times, average 4.28 sec, max 7.63 sec, min 2.69 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy - 8.47% of total time (compiled   41 times, average 3.30 sec, max 17.20 sec, min 0.90 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display:  TBasePassPSTDistanceFieldShadowsAndLightMapPolicyHQSkylight - 5.87% of total time (compiled    6 times, average 15.65 sec, max 24.68 sec, min 10.29 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: TBasePassPSFPrecomputedVolumetricLightmapLightingPolicySkylight - 5.87% of total time (compiled    6 times, average 15.64 sec, max 24.76 sec, min 10.39 sec)
+[2022.10.05-20.57.50:885][226]LogShaderCompilers: Display: ================================================
+[2022.10.05-20.57.50:976][226]LogShaderCompilers: Display: Shaders left to compile 0
+[2022.10.05-20.57.54:639][226]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (894)
+[2022.10.05-20.57.54:639][226]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (892)
+[2022.10.05-20.57.54:651][226]LogModuleManager: Shutting down and abandoning module Voice (890)
+[2022.10.05-20.57.54:660][226]LogModuleManager: Shutting down and abandoning module TextureEditor (888)
+[2022.10.05-20.57.54:660][226]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (886)
+[2022.10.05-20.57.54:660][226]LogModuleManager: Shutting down and abandoning module SubobjectEditor (884)
+[2022.10.05-20.57.54:660][226]LogModuleManager: Shutting down and abandoning module SceneOutliner (882)
+[2022.10.05-20.57.54:660][226]LogModuleManager: Shutting down and abandoning module AddContentDialog (880)
+[2022.10.05-20.57.54:671][226]LogModuleManager: Shutting down and abandoning module WidgetCarousel (879)
+[2022.10.05-20.57.54:671][226]LogModuleManager: Shutting down and abandoning module StatusBar (876)
+[2022.10.05-20.57.54:671][226]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (874)
+[2022.10.05-20.57.54:680][226]LogModuleManager: Shutting down and abandoning module StatsViewer (872)
+[2022.10.05-20.57.54:688][226]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (870)
+[2022.10.05-20.57.54:699][226]LogModuleManager: Shutting down and abandoning module AutomationWorker (868)
+[2022.10.05-20.57.54:743][226]LogModuleManager: Shutting down and abandoning module OculusMR (866)
+[2022.10.05-20.57.54:743][226]LogModuleManager: Shutting down and abandoning module ResonanceAudioEditor (864)
+[2022.10.05-20.57.54:743][226]LogModuleManager: Shutting down and abandoning module OpenXRInput (862)
+[2022.10.05-20.57.54:758][226]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2022.10.05-20.57.54:758][226]LogModuleManager: Shutting down and abandoning module GooglePADEditor (860)
+[2022.10.05-20.57.54:758][226]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (858)
+[2022.10.05-20.57.54:771][226]LogModuleManager: Shutting down and abandoning module AndroidFileServerEditor (856)
+[2022.10.05-20.57.54:771][226]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (854)
+[2022.10.05-20.57.54:839][226]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (852)
+[2022.10.05-20.57.54:851][226]LogModuleManager: Shutting down and abandoning module TemplateSequenceEditor (850)
+[2022.10.05-20.57.54:905][226]LogModuleManager: Shutting down and abandoning module ActorSequenceEditor (848)
+[2022.10.05-20.57.54:919][226]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (846)
+[2022.10.05-20.57.54:919][226]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (844)
+[2022.10.05-20.57.54:919][226]LogModuleManager: Shutting down and abandoning module WebMMediaFactory (842)
+[2022.10.05-20.57.54:932][226]LogModuleManager: Shutting down and abandoning module WebMMediaEditor (840)
+[2022.10.05-20.57.54:932][226]LogModuleManager: Shutting down and abandoning module WebMMedia (838)
+[2022.10.05-20.57.54:949][226]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (836)
+[2022.10.05-20.57.54:959][226]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (834)
+[2022.10.05-20.57.54:994][226]LogModuleManager: Shutting down and abandoning module SequenceRecorder (833)
+[2022.10.05-20.57.54:995][226]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (830)
+[2022.10.05-20.57.54:995][226]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (828)
+[2022.10.05-20.57.54:995][226]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (826)
+[2022.10.05-20.57.55:004][226]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (824)
+[2022.10.05-20.57.55:004][226]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (822)
+[2022.10.05-20.57.55:004][226]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (820)
+[2022.10.05-20.57.55:004][226]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (818)
+[2022.10.05-20.57.55:004][226]LogModuleManager: Shutting down and abandoning module PlanarCut (816)
+[2022.10.05-20.57.55:020][226]LogModuleManager: Shutting down and abandoning module CharacterAI (814)
+[2022.10.05-20.57.55:020][226]LogModuleManager: Shutting down and abandoning module TextureAlignMode (812)
+[2022.10.05-20.57.55:020][226]LogModuleManager: Shutting down and abandoning module BspMode (810)
+[2022.10.05-20.57.55:040][226]LogModuleManager: Shutting down and abandoning module GeometryMode (808)
+[2022.10.05-20.57.55:051][226]LogModuleManager: Shutting down and abandoning module IKRigEditor (806)
+[2022.10.05-20.57.55:079][226]LogModuleManager: Shutting down and abandoning module ControlRigEditor (804)
+[2022.10.05-20.57.55:166][226]LogModuleManager: Shutting down and abandoning module AnimationEditor (803)
+[2022.10.05-20.57.55:180][226]LogModuleManager: Shutting down and abandoning module ControlRigSplineEditor (800)
+[2022.10.05-20.57.55:180][226]LogModuleManager: Shutting down and abandoning module CameraShakePreviewer (798)
+[2022.10.05-20.57.55:194][226]LogModuleManager: Shutting down and abandoning module SmartSnapping (796)
+[2022.10.05-20.57.55:204][226]LogModuleManager: Shutting down and abandoning module SessionServices (794)
+[2022.10.05-20.57.55:213][226]LogModuleManager: Shutting down and abandoning module MeshPaint (792)
+[2022.10.05-20.57.55:245][226]LogModuleManager: Shutting down and abandoning module VirtualTexturingEditor (790)
+[2022.10.05-20.57.55:254][226]LogModuleManager: Shutting down and abandoning module PlacementMode (789)
+[2022.10.05-20.57.55:255][226]LogModuleManager: Shutting down and abandoning module FoliageEdit (786)
+[2022.10.05-20.57.55:268][226]LogModuleManager: Shutting down and abandoning module LandscapeEditor (784)
+[2022.10.05-20.57.55:309][226]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (782)
+[2022.10.05-20.57.55:309][226]LogModuleManager: Shutting down and abandoning module ActorPickerMode (780)
+[2022.10.05-20.57.55:309][226]LogModuleManager: Shutting down and abandoning module ViewportSnapping (778)
+[2022.10.05-20.57.55:309][226]LogModuleManager: Shutting down and abandoning module EditorWidgets (776)
+[2022.10.05-20.57.55:317][226]LogModuleManager: Shutting down and abandoning module ViewportInteraction (774)
+[2022.10.05-20.57.55:317][226]LogModuleManager: Shutting down and abandoning module ClothPainter (772)
+[2022.10.05-20.57.55:341][226]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (771)
+[2022.10.05-20.57.55:345][226]LogModuleManager: Shutting down and abandoning module LogVisualizer (768)
+[2022.10.05-20.57.55:385][226]LogModuleManager: Shutting down and abandoning module IntroTutorials (766)
+[2022.10.05-20.57.55:397][226]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (764)
+[2022.10.05-20.57.55:416][226]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (762)
+[2022.10.05-20.57.55:427][226]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (761)
+[2022.10.05-20.57.55:461][226]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (759)
+[2022.10.05-20.57.56:043][226]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (756)
+[2022.10.05-20.57.56:043][226]LogModuleManager: Shutting down and abandoning module HoloLensPlatformEditor (754)
+[2022.10.05-20.57.56:043][226]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (752)
+[2022.10.05-20.57.56:043][226]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (750)
+[2022.10.05-20.57.56:044][226]LogModuleManager: Shutting down and abandoning module CSVtoSVG (748)
+[2022.10.05-20.57.56:044][226]LogModuleManager: Shutting down and abandoning module DerivedDataEditor (746)
+[2022.10.05-20.57.56:050][226]LogModuleManager: Shutting down and abandoning module EditorConfig (744)
+[2022.10.05-20.57.56:050][226]LogModuleManager: Shutting down and abandoning module WorldPartitionEditor (742)
+[2022.10.05-20.57.56:082][226]LogModuleManager: Shutting down and abandoning module EditorFramework (740)
+[2022.10.05-20.57.56:082][226]LogModuleManager: Shutting down and abandoning module StaticMeshEditor (738)
+[2022.10.05-20.57.56:082][226]LogModuleManager: Shutting down and abandoning module TraceInsights (736)
+[2022.10.05-20.57.56:156][226]MemoryProfiler: Shutdown
+[2022.10.05-20.57.56:166][226]NetworkingProfiler: Shutdown
+[2022.10.05-20.57.56:166][226]LoadingProfiler: Shutdown
+[2022.10.05-20.57.56:167][226]TimingProfiler: Shutdown
+[2022.10.05-20.57.56:187][226]LogModuleManager: Shutting down and abandoning module TraceServices (735)
+[2022.10.05-20.57.56:217][226]LogModuleManager: Shutting down and abandoning module EditorInteractiveToolsFramework (732)
+[2022.10.05-20.57.56:217][226]LogModuleManager: Shutting down and abandoning module InteractiveToolsFramework (731)
+[2022.10.05-20.57.56:227][226]LogModuleManager: Shutting down and abandoning module InputBindingEditor (728)
+[2022.10.05-20.57.56:243][226]LogModuleManager: Shutting down and abandoning module MergeActors (726)
+[2022.10.05-20.57.56:259][226]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (724)
+[2022.10.05-20.57.56:278][226]LogModuleManager: Shutting down and abandoning module LocalizationService (723)
+[2022.10.05-20.57.56:291][226]LogModuleManager: Shutting down and abandoning module HardwareTargeting (720)
+[2022.10.05-20.57.56:291][226]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (718)
+[2022.10.05-20.57.56:313][226]LogModuleManager: Shutting down and abandoning module UndoHistory (716)
+[2022.10.05-20.57.56:326][226]LogModuleManager: Shutting down and abandoning module XmlParser (714)
+[2022.10.05-20.57.56:339][226]LogModuleManager: Shutting down and abandoning module Blutility (712)
+[2022.10.05-20.57.56:351][226]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (710)
+[2022.10.05-20.57.56:360][226]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (709)
+[2022.10.05-20.57.56:362][226]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (706)
+[2022.10.05-20.57.56:362][226]LogModuleManager: Shutting down and abandoning module InternationalizationSettings (705)
+[2022.10.05-20.57.56:375][226]LogModuleManager: Shutting down and abandoning module SettingsEditor (702)
+[2022.10.05-20.57.56:395][226]LogModuleManager: Shutting down and abandoning module ProjectLauncher (700)
+[2022.10.05-20.57.56:404][226]LogModuleManager: Shutting down and abandoning module SessionFrontend (698)
+[2022.10.05-20.57.56:415][226]LogModuleManager: Shutting down and abandoning module ProfilerClient (696)
+[2022.10.05-20.57.56:422][226]LogModuleManager: Shutting down and abandoning module DeviceManager (694)
+[2022.10.05-20.57.56:441][226]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (693)
+[2022.10.05-20.57.56:467][226]LogModuleManager: Shutting down and abandoning module AutomationController (690)
+[2022.10.05-20.57.56:490][226]LogModuleManager: Shutting down and abandoning module AutomationWindow (688)
+[2022.10.05-20.57.56:503][226]LogModuleManager: Shutting down and abandoning module Layers (686)
+[2022.10.05-20.57.56:524][226]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (684)
+[2022.10.05-20.57.56:540][226]LogModuleManager: Shutting down and abandoning module DetailCustomizations (682)
+[2022.10.05-20.57.56:540][226]LogModuleManager: Shutting down and abandoning module PackagesDialog (680)
+[2022.10.05-20.57.56:540][226]LogModuleManager: Shutting down and abandoning module AnimationBlueprintEditor (678)
+[2022.10.05-20.57.56:571][226]LogModuleManager: Shutting down and abandoning module Persona (676)
+[2022.10.05-20.57.56:578][226]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (675)
+[2022.10.05-20.57.56:578][226]LogModuleManager: Shutting down and abandoning module AnimGraph (673)
+[2022.10.05-20.57.56:578][226]LogModuleManager: Shutting down and abandoning module Kismet (670)
+[2022.10.05-20.57.56:624][226]LogModuleManager: Shutting down and abandoning module KismetWidgets (669)
+[2022.10.05-20.57.56:624][226]LogModuleManager: Shutting down and abandoning module GraphEditor (666)
+[2022.10.05-20.57.56:634][226]LogModuleManager: Shutting down and abandoning module StructViewer (664)
+[2022.10.05-20.57.56:653][226]LogModuleManager: Shutting down and abandoning module ClassViewer (662)
+[2022.10.05-20.57.56:653][226]LogModuleManager: Shutting down and abandoning module NaniteTools (660)
+[2022.10.05-20.57.56:677][226]LogModuleManager: Shutting down and abandoning module UncontrolledChangelists (658)
+[2022.10.05-20.57.56:687][226]LogModuleManager: Shutting down and abandoning module SourceControlWindows (656)
+[2022.10.05-20.57.56:713][226]LogModuleManager: Shutting down and abandoning module OutputLog (654)
+[2022.10.05-20.57.56:714][226]LogModuleManager: Shutting down and abandoning module Documentation (652)
+[2022.10.05-20.57.56:714][226]LogModuleManager: Shutting down and abandoning module LiveCoding (650)
+[2022.10.05-20.57.56:747][226]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (648)
+[2022.10.05-20.57.56:747][226]LogModuleManager: Shutting down and abandoning module MovieScene (646)
+[2022.10.05-20.57.56:772][226]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (644)
+[2022.10.05-20.57.56:801][226]LogModuleManager: Shutting down and abandoning module LauncherPlatform (642)
+[2022.10.05-20.57.56:801][226]LogModuleManager: Shutting down and abandoning module AnalyticsET (640)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module PortalServices (638)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module PortalRpc (636)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module MessagingRpc (634)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module AudioMixerXAudio2 (632)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module AudioMixer (631)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module AudioMixerCore (630)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module AIModule (626)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module GameplayDebugger (625)
+[2022.10.05-20.57.56:802][226]LogModuleManager: Shutting down and abandoning module AITestSuite (623)
+[2022.10.05-20.57.56:832][226]LogModuleManager: Shutting down and abandoning module NavigationSystem (621)
+[2022.10.05-20.57.56:842][226]LogModuleManager: Shutting down and abandoning module LevelInstanceEditor (618)
+[2022.10.05-20.57.56:851][226]LogModuleManager: Shutting down and abandoning module TypedElementRuntime (616)
+[2022.10.05-20.57.56:851][226]LogModuleManager: Shutting down and abandoning module TypedElementFramework (614)
+[2022.10.05-20.57.56:851][226]LogModuleManager: Shutting down and abandoning module ImageWriteQueue (612)
+[2022.10.05-20.57.56:851][226]LogModuleManager: Shutting down and abandoning module ProfilerService (610)
+[2022.10.05-20.57.56:924][226]LogModuleManager: Shutting down and abandoning module TaskGraph (608)
+[2022.10.05-20.57.56:936][226]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaEditor (606)
+[2022.10.05-20.57.56:947][226]LogModuleManager: Shutting down and abandoning module MegascansPlugin (604)
+[2022.10.05-20.57.56:967][226]LogModuleManager: Shutting down and abandoning module Bridge (602)
+[2022.10.05-20.57.56:976][226]LogModuleManager: Shutting down and abandoning module OculusEditor (600)
+[2022.10.05-20.57.56:986][226]LogModuleManager: Shutting down and abandoning module OculusInput (598)
+[2022.10.05-20.57.56:986][226]LogModuleManager: Shutting down and abandoning module InterchangeFbxParser (596)
+[2022.10.05-20.57.57:005][226]LogModuleManager: Shutting down and abandoning module InterchangeDispatcher (594)
+[2022.10.05-20.57.57:030][226]LogModuleManager: Shutting down and abandoning module InterchangePipelines (592)
+[2022.10.05-20.57.57:044][226]LogModuleManager: Shutting down and abandoning module InterchangeExport (590)
+[2022.10.05-20.57.57:044][226]LogModuleManager: Shutting down and abandoning module InterchangeMessages (588)
+[2022.10.05-20.57.57:044][226]LogModuleManager: Shutting down and abandoning module InterchangeImport (586)
+[2022.10.05-20.57.57:059][226]LogModuleManager: Shutting down and abandoning module InterchangeNodes (584)
+[2022.10.05-20.57.57:059][226]LogModuleManager: Shutting down and abandoning module InterchangeResultsBrowser (582)
+[2022.10.05-20.57.57:073][226]LogModuleManager: Shutting down and abandoning module InterchangeEditorPipelines (580)
+[2022.10.05-20.57.57:095][226]LogModuleManager: Shutting down and abandoning module InterchangeEditor (578)
+[2022.10.05-20.57.57:095][226]LogModuleManager: Shutting down and abandoning module ContentBrowserClassDataSource (576)
+[2022.10.05-20.57.57:095][226]LogModuleManager: Shutting down and abandoning module ContentBrowserFileDataSource (574)
+[2022.10.05-20.57.57:105][226]LogModuleManager: Shutting down and abandoning module ContentBrowserAssetDataSource (572)
+[2022.10.05-20.57.57:105][226]LogModuleManager: Shutting down and abandoning module CollectionManager (571)
+[2022.10.05-20.57.57:132][226]LogModuleManager: Shutting down and abandoning module SynthesisEditor (568)
+[2022.10.05-20.57.57:132][226]LogModuleManager: Shutting down and abandoning module Synthesis (566)
+[2022.10.05-20.57.57:148][226]LogModuleManager: Shutting down and abandoning module ResonanceAudio (564)
+[2022.10.05-20.57.57:148][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (562)
+[2022.10.05-20.57.57:155][226]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (560)
+[2022.10.05-20.57.57:160][226]LogModuleManager: Shutting down and abandoning module OpenXREditor (558)
+[2022.10.05-20.57.57:160][226]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (556)
+[2022.10.05-20.57.57:160][226]LogModuleManager: Shutting down and abandoning module ModelingOperatorsEditorOnly (554)
+[2022.10.05-20.57.57:160][226]LogModuleManager: Shutting down and abandoning module ModelingOperators (552)
+[2022.10.05-20.57.57:168][226]LogModuleManager: Shutting down and abandoning module ModelingComponentsEditorOnly (550)
+[2022.10.05-20.57.57:168][226]LogModuleManager: Shutting down and abandoning module ModelingComponents (548)
+[2022.10.05-20.57.57:183][226]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnly (546)
+[2022.10.05-20.57.57:183][226]LogModuleManager: Shutting down and abandoning module MeshModelingTools (544)
+[2022.10.05-20.57.57:199][226]LogModuleManager: Shutting down and abandoning module HairStrandsEditor (542)
+[2022.10.05-20.57.57:249][226]LogModuleManager: Shutting down and abandoning module GooglePAD (540)
+[2022.10.05-20.57.57:249][226]LogModuleManager: Shutting down and abandoning module DynamicMesh (538)
+[2022.10.05-20.57.57:261][226]LogModuleManager: Shutting down and abandoning module GeometryAlgorithms (536)
+[2022.10.05-20.57.57:274][226]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (534)
+[2022.10.05-20.57.57:274][226]LogModuleManager: Shutting down and abandoning module GeometryCacheStreamer (532)
+[2022.10.05-20.57.57:281][226]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (530)
+[2022.10.05-20.57.57:289][226]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (528)
+[2022.10.05-20.57.57:289][226]LogModuleManager: Shutting down and abandoning module CableComponent (526)
+[2022.10.05-20.57.57:289][226]LogModuleManager: Shutting down and abandoning module AudioCapture (524)
+[2022.10.05-20.57.57:289][226]LogModuleManager: Shutting down and abandoning module AudioCaptureRtAudio (523)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module AssetTags (520)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (518)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module AppleImageUtilsBlueprintSupport (516)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module AppleImageUtils (514)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module AndroidPermission (512)
+[2022.10.05-20.57.57:303][226]LogModuleManager: Shutting down and abandoning module ActorLayerUtilitiesEditor (510)
+[2022.10.05-20.57.57:314][226]LogModuleManager: Shutting down and abandoning module ActorLayerUtilities (508)
+[2022.10.05-20.57.57:314][226]LogModuleManager: Shutting down and abandoning module SequencerScriptingEditor (504)
+[2022.10.05-20.57.57:314][226]LogModuleManager: Shutting down and abandoning module SequencerScripting (502)
+[2022.10.05-20.57.57:324][226]LogModuleManager: Shutting down and abandoning module TemplateSequence (500)
+[2022.10.05-20.57.57:324][226]LogModuleManager: Shutting down and abandoning module MediaCompositing (498)
+[2022.10.05-20.57.57:331][226]LogModuleManager: Shutting down and abandoning module ImgMedia (496)
+[2022.10.05-20.57.57:350][226]LogModuleManager: Shutting down and abandoning module NiagaraEditorWidgets (494)
+[2022.10.05-20.57.57:373][226]LogModuleManager: Shutting down and abandoning module AlembicImporter (492)
+[2022.10.05-20.57.57:373][226]LogModuleManager: Shutting down and abandoning module AlembicLibrary (491)
+[2022.10.05-20.57.57:383][226]LogModuleManager: Shutting down and abandoning module GeometryCache (490)
+[2022.10.05-20.57.57:383][226]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (489)
+[2022.10.05-20.57.57:383][226]LogModuleManager: Shutting down and abandoning module OpenImageDenoise (484)
+[2022.10.05-20.57.57:403][226]LogOpenImageDenoise: OIDN shutting down
+[2022.10.05-20.57.57:404][226]LogModuleManager: Shutting down and abandoning module ModelingEditorUI (482)
+[2022.10.05-20.57.57:429][226]LogModuleManager: Shutting down and abandoning module GeometryProcessingAdapters (480)
+[2022.10.05-20.57.57:459][226]LogModuleManager: Shutting down and abandoning module MeshModelingToolsEditorOnlyExp (478)
+[2022.10.05-20.57.57:474][226]LogModuleManager: Shutting down and abandoning module MeshModelingToolsExp (476)
+[2022.10.05-20.57.57:488][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionTracks (474)
+[2022.10.05-20.57.57:488][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionSequencer (473)
+[2022.10.05-20.57.57:495][226]LogModuleManager: Shutting down and abandoning module GeometryCollectionEditor (470)
+[2022.10.05-20.57.57:502][226]LogModuleManager: Shutting down and abandoning module ChaosNiagara (468)
+[2022.10.05-20.57.57:519][226]LogModuleManager: Shutting down and abandoning module ChaosSolverEditor (466)
+[2022.10.05-20.57.57:519][226]LogModuleManager: Shutting down and abandoning module ChaosClothEditor (464)
+[2022.10.05-20.57.57:540][226]LogModuleManager: Shutting down and abandoning module FractureEditor (462)
+[2022.10.05-20.57.57:557][226]LogModuleManager: Shutting down and abandoning module BackChannel (460)
+[2022.10.05-20.57.57:572][226]LogModuleManager: Shutting down and abandoning module AutomationUtilsEditor (458)
+[2022.10.05-20.57.57:572][226]LogModuleManager: Shutting down and abandoning module AutomationUtils (456)
+[2022.10.05-20.57.57:572][226]LogModuleManager: Shutting down and abandoning module SequencerAnimTools (454)
+[2022.10.05-20.57.57:587][226]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (452)
+[2022.10.05-20.57.57:598][226]LogModuleManager: Shutting down and abandoning module WorldPartitionHLODUtilities (450)
+[2022.10.05-20.57.57:598][226]LogModuleManager: Shutting down and abandoning module PluginBrowser (448)
+[2022.10.05-20.57.57:618][226]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (446)
+[2022.10.05-20.57.57:633][226]LogModuleManager: Shutting down and abandoning module MaterialAnalyzer (444)
+[2022.10.05-20.57.57:646][226]LogModuleManager: Shutting down and abandoning module EditorDebugTools (442)
+[2022.10.05-20.57.57:670][226]LogModuleManager: Shutting down and abandoning module EditorScriptingUtilities (440)
+[2022.10.05-20.57.57:671][226]LogModuleManager: Shutting down and abandoning module CurveEditorTools (438)
+[2022.10.05-20.57.57:693][226]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (436)
+[2022.10.05-20.57.57:693][226]LogModuleManager: Shutting down and abandoning module CryptoKeys (434)
+[2022.10.05-20.57.57:693][226]LogModuleManager: Shutting down and abandoning module VariantManagerContentEditor (432)
+[2022.10.05-20.57.57:705][226]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (430)
+[2022.10.05-20.57.57:719][226]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (428)
+[2022.10.05-20.57.57:719][226]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (426)
+[2022.10.05-20.57.57:719][226]LogModuleManager: Shutting down and abandoning module UObjectPlugin (424)
+[2022.10.05-20.57.57:719][226]LogModuleManager: Shutting down and abandoning module UnrealInsightsInterface (422)
+[2022.10.05-20.57.57:719][226]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (420)
+[2022.10.05-20.57.57:729][226]LogModuleManager: Shutting down and abandoning module PluginUtils (418)
+[2022.10.05-20.57.57:744][226]LogModuleManager: Shutting down and abandoning module RiderSourceCodeAccess (416)
+[2022.10.05-20.57.57:744][226]LogModuleManager: Shutting down and abandoning module PlasticSourceControl (414)
+[2022.10.05-20.57.57:768][226]LogModuleManager: Shutting down and abandoning module GitSourceControl (412)
+[2022.10.05-20.57.57:798][226]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (410)
+[2022.10.05-20.57.57:799][226]LogModuleManager: Shutting down and abandoning module ControlRigSpline (408)
+[2022.10.05-20.57.57:799][226]LogModuleManager: Shutting down and abandoning module AnimationSharingEd (406)
+[2022.10.05-20.57.57:799][226]LogModuleManager: Shutting down and abandoning module BlendSpaceMotionAnalysis (404)
+[2022.10.05-20.57.57:829][226]LogModuleManager: Shutting down and abandoning module OodleNetworkHandlerComponent (402)
+[2022.10.05-20.57.57:829][226]LogModuleManager: Shutting down and abandoning module AnimationModifierLibrary (400)
+[2022.10.05-20.57.57:829][226]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (398)
+[2022.10.05-20.57.57:829][226]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (396)
+[2022.10.05-20.57.57:829][226]LogModuleManager: Shutting down and abandoning module Paper2DEditor (394)
+[2022.10.05-20.57.57:858][226]LogModuleManager: Shutting down and abandoning module MeshPaintingToolset (392)
+[2022.10.05-20.57.57:868][226]LogModuleManager: Shutting down and abandoning module MeshPaintEditorMode (390)
+[2022.10.05-20.57.57:881][226]LogModuleManager: Shutting down and abandoning module SoundFields (388)
+[2022.10.05-20.57.57:881][226]LogModuleManager: Shutting down and abandoning module SignificanceManager (386)
+[2022.10.05-20.57.57:881][226]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (384)
+[2022.10.05-20.57.57:881][226]LogModuleManager: Shutting down and abandoning module PropertyAccessEditor (382)
+[2022.10.05-20.57.57:912][226]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (380)
+[2022.10.05-20.57.57:912][226]LogModuleManager: Shutting down and abandoning module AudioSynesthesia (378)
+[2022.10.05-20.57.57:932][226]LogModuleManager: Shutting down and abandoning module AudioAnalyzer (377)
+[2022.10.05-20.57.57:932][226]LogModuleManager: Shutting down and abandoning module AudioSynesthesiaCore (374)
+[2022.10.05-20.57.57:932][226]LogModuleManager: Shutting down and abandoning module ActorSequence (372)
+[2022.10.05-20.57.57:932][226]LogModuleManager: Shutting down and abandoning module UdpMessaging (370)
+[2022.10.05-20.57.58:033][226]LogModuleManager: Shutting down and abandoning module TcpMessaging (368)
+[2022.10.05-20.57.58:140][226]LogModuleManager: Shutting down and abandoning module ImgMediaEngine (366)
+[2022.10.05-20.57.58:140][226]LogModuleManager: Shutting down and abandoning module NiagaraAnimNotifies (364)
+[2022.10.05-20.57.58:140][226]LogModuleManager: Shutting down and abandoning module Niagara (362)
+[2022.10.05-20.57.58:191][226]LogModuleManager: Shutting down and abandoning module SignalProcessing (361)
+[2022.10.05-20.57.58:191][226]LogModuleManager: Shutting down and abandoning module NiagaraEditor (359)
+[2022.10.05-20.57.58:223][226]LogModuleManager: Shutting down and abandoning module NiagaraCore (356)
+[2022.10.05-20.57.58:223][226]LogModuleManager: Shutting down and abandoning module PythonScriptPlugin (354)
+[2022.10.05-20.57.58:223][226]LogModuleManager: Shutting down and abandoning module PBIK (352)
+[2022.10.05-20.57.58:235][226]LogModuleManager: Shutting down and abandoning module FullBodyIK (350)
+[2022.10.05-20.57.58:235][226]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (348)
+[2022.10.05-20.57.58:244][226]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (346)
+[2022.10.05-20.57.58:244][226]LogModuleManager: Shutting down and abandoning module FacialAnimation (344)
+[2022.10.05-20.57.58:244][226]LogModuleManager: Shutting down and abandoning module DataValidation (342)
+[2022.10.05-20.57.58:244][226]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (340)
+[2022.10.05-20.57.58:259][226]LogModuleManager: Shutting down and abandoning module LevelEditor (339)
+[2022.10.05-20.57.58:297][226]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (338)
+[2022.10.05-20.57.58:341][226]LogModuleManager: Shutting down and abandoning module LevelAssetEditor (336)
+[2022.10.05-20.57.58:341][226]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (334)
+[2022.10.05-20.57.58:342][226]LogModuleManager: Shutting down and abandoning module MainFrame (332)
+[2022.10.05-20.57.58:342][226]LogModuleManager: Shutting down and abandoning module HotReload (331)
+[2022.10.05-20.57.58:367][226]LogModuleManager: Shutting down and abandoning module ContentBrowser (327)
+[2022.10.05-20.57.58:367][226]LogModuleManager: Shutting down and abandoning module ToolMenus (326)
+[2022.10.05-20.57.58:367][226]LogModuleManager: Shutting down and abandoning module ContentBrowserData (324)
+[2022.10.05-20.57.58:367][226]LogModuleManager: Shutting down and abandoning module TreeMap (321)
+[2022.10.05-20.57.58:367][226]LogModuleManager: Shutting down and abandoning module TraceDataFiltering (318)
+[2022.10.05-20.57.58:389][226]LogModuleManager: Shutting down and abandoning module PropertyAccessNode (316)
+[2022.10.05-20.57.58:405][226]LogModuleManager: Shutting down and abandoning module IKRigDeveloper (314)
+[2022.10.05-20.57.58:405][226]LogModuleManager: Shutting down and abandoning module IKRig (312)
+[2022.10.05-20.57.58:405][226]LogModuleManager: Shutting down and abandoning module ControlRigDeveloper (310)
+[2022.10.05-20.57.58:405][226]LogModuleManager: Shutting down and abandoning module ControlRig (308)
+[2022.10.05-20.57.58:413][226]LogModuleManager: Shutting down and abandoning module LevelSequence (307)
+[2022.10.05-20.57.58:413][226]LogModuleManager: Shutting down and abandoning module AnimationSharing (304)
+[2022.10.05-20.57.58:413][226]LogModuleManager: Shutting down and abandoning module GameplayCameras (302)
+[2022.10.05-20.57.58:413][226]LogModuleManager: Shutting down and abandoning module EnvironmentQueryEditor (300)
+[2022.10.05-20.57.58:441][226]LogModuleManager: Shutting down and abandoning module Paper2D (298)
+[2022.10.05-20.57.58:454][226]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (296)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module WebMMoviePlayer (294)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module AndroidFileServer (292)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module NetworkReplayStreaming (290)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module PacketHandler (288)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module AnimationDataController (286)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (284)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntimeNv (282)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module MediaAssets (280)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module Overlay (278)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module OverlayEditor (277)
+[2022.10.05-20.57.58:469][226]LogModuleManager: Shutting down and abandoning module VREditor (274)
+[2022.10.05-20.57.58:490][226]LogModuleManager: Shutting down and abandoning module StringTableEditor (272)
+[2022.10.05-20.57.58:509][226]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (270)
+[2022.10.05-20.57.58:509][226]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (268)
+[2022.10.05-20.57.58:533][226]LogModuleManager: Shutting down and abandoning module FunctionalTesting (266)
+[2022.10.05-20.57.58:551][226]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (264)
+[2022.10.05-20.57.58:552][226]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (263)
+[2022.10.05-20.57.58:580][226]LogModuleManager: Shutting down and abandoning module UMG (260)
+[2022.10.05-20.57.58:580][226]LogModuleManager: Shutting down and abandoning module UMGEditor (259)
+[2022.10.05-20.57.58:613][226]LogModuleManager: Shutting down and abandoning module SlateReflector (254)
+[2022.10.05-20.57.58:663][226]LogModuleManager: Shutting down and abandoning module Slate (252)
+[2022.10.05-20.57.58:663][226]LogModuleManager: Shutting down and abandoning module SlateCore (250)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module SubobjectDataInterface (248)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module LandscapeEditorUtilities (246)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module UnrealEd (244)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module MRMesh (242)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module Messaging (240)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (238)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (236)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module Networking (234)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module Core (232)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module MaterialEditor (230)
+[2022.10.05-20.57.58:679][226]LogModuleManager: Shutting down and abandoning module MovieSceneTools (228)
+[2022.10.05-20.57.58:690][226]LogModuleManager: Shutting down and abandoning module CurveEditor (227)
+[2022.10.05-20.57.58:705][226]LogModuleManager: Shutting down and abandoning module Sequencer (225)
+[2022.10.05-20.57.58:731][226]LogModuleManager: Shutting down and abandoning module EditorStyle (224)
+[2022.10.05-20.57.58:731][226]LogModuleManager: Shutting down and abandoning module KismetCompiler (220)
+[2022.10.05-20.57.58:731][226]LogModuleManager: Shutting down and abandoning module MeshBuilder (218)
+[2022.10.05-20.57.58:731][226]LogModuleManager: Shutting down and abandoning module NaniteBuilder (216)
+[2022.10.05-20.57.58:740][226]LogModuleManager: Shutting down and abandoning module MeshUtilities (214)
+[2022.10.05-20.57.58:759][226]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (213)
+[2022.10.05-20.57.58:769][226]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (212)
+[2022.10.05-20.57.58:769][226]LogModuleManager: Shutting down and abandoning module MeshBoneReduction (211)
+[2022.10.05-20.57.58:782][226]LogModuleManager: Shutting down and abandoning module SkeletalMeshReduction (209)
+[2022.10.05-20.57.58:796][226]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (207)
+[2022.10.05-20.57.58:870][226]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (205)
+[2022.10.05-20.57.58:889][226]LogModuleManager: Shutting down and abandoning module MaterialBaking (201)
+[2022.10.05-20.57.58:897][226]LogModuleManager: Shutting down and abandoning module NullInstallBundleManager (196)
+[2022.10.05-20.57.58:898][226]LogModuleManager: Shutting down and abandoning module DerivedDataCache (194)
+[2022.10.05-20.57.58:933][226]LogModuleManager: Shutting down and abandoning module TargetPlatform (192)
+[2022.10.05-20.57.58:943][226]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (191)
+[2022.10.05-20.57.58:950][226]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (189)
+[2022.10.05-20.57.58:966][226]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (187)
+[2022.10.05-20.57.58:982][226]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (185)
+[2022.10.05-20.57.58:992][226]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (183)
+[2022.10.05-20.57.58:998][226]LogModuleManager: Shutting down and abandoning module AudioFormatBink (181)
+[2022.10.05-20.57.58:998][226]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (179)
+[2022.10.05-20.57.59:008][226]LogModuleManager: Shutting down and abandoning module AudioFormatOGG (177)
+[2022.10.05-20.57.59:008][226]LogModuleManager: Shutting down and abandoning module AudioFormatOPUS (175)
+[2022.10.05-20.57.59:008][226]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (173)
+[2022.10.05-20.57.59:008][226]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (171)
+[2022.10.05-20.57.59:008][226]LogModuleManager: Shutting down and abandoning module LinuxArm64TargetPlatform (169)
+[2022.10.05-20.57.59:020][226]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (167)
+[2022.10.05-20.57.59:031][226]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (165)
+[2022.10.05-20.57.59:031][226]LogModuleManager: Shutting down and abandoning module HoloLensTargetPlatform (163)
+[2022.10.05-20.57.59:055][226]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (161)
+[2022.10.05-20.57.59:055][226]LogModuleManager: Shutting down and abandoning module TextureFormat (159)
+[2022.10.05-20.57.59:055][226]LogModuleManager: Shutting down and abandoning module TextureFormatOodle (158)
+[2022.10.05-20.57.59:067][226]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (156)
+[2022.10.05-20.57.59:067][226]LogModuleManager: Shutting down and abandoning module TextureFormatETC2 (154)
+[2022.10.05-20.57.59:127][226]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (152)
+[2022.10.05-20.57.59:145][226]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (150)
+[2022.10.05-20.57.59:162][226]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (148)
+[2022.10.05-20.57.59:163][226]LogModuleManager: Shutting down and abandoning module ImageWrapper (147)
+[2022.10.05-20.57.59:163][226]LogModuleManager: Shutting down and abandoning module TurnkeySupport (143)
+[2022.10.05-20.57.59:163][226]LogModuleManager: Shutting down and abandoning module InputCore (140)
+[2022.10.05-20.57.59:163][226]LogModuleManager: Shutting down and abandoning module Settings (138)
+[2022.10.05-20.57.59:163][226]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (136)
+[2022.10.05-20.57.59:164][226]LogModuleManager: Shutting down and abandoning module ChaosSolverEngine (134)
+[2022.10.05-20.57.59:164][226]LogModuleManager: Shutting down and abandoning module FieldSystemEngine (133)
+[2022.10.05-20.57.59:164][226]LogModuleManager: Shutting down and abandoning module Chaos (130)
+[2022.10.05-20.57.59:164][226]LogModuleManager: Shutting down and abandoning module GeometryCore (129)
+[2022.10.05-20.57.59:176][226]LogModuleManager: Shutting down and abandoning module WindowsPlatformFeatures (126)
+[2022.10.05-20.57.59:186][226]LogModuleManager: Shutting down and abandoning module GameplayMediaEncoder (125)
+[2022.10.05-20.57.59:186][226]LogModuleManager: Shutting down and abandoning module AVEncoder (124)
+[2022.10.05-20.57.59:198][226]LogModuleManager: Shutting down and abandoning module D3D12RHI (120)
+[2022.10.05-20.57.59:198][226]LogModuleManager: Shutting down and abandoning module OculusOpenXRHMD (118)
+[2022.10.05-20.57.59:198][226]LogModuleManager: Shutting down and abandoning module OculusHMD (116)
+[2022.10.05-20.57.59:198][226]LogModuleManager: Shutting down and abandoning module OnlineServicesCommon (114)
+[2022.10.05-20.57.59:246][226]LogModuleManager: Shutting down and abandoning module OnlineServicesInterface (112)
+[2022.10.05-20.57.59:258][226]LogModuleManager: Shutting down and abandoning module WindowsDeviceProfileSelector (110)
+[2022.10.05-20.57.59:258][226]LogModuleManager: Shutting down and abandoning module OpenXRAR (108)
+[2022.10.05-20.57.59:268][226]LogModuleManager: Shutting down and abandoning module AugmentedReality (107)
+[2022.10.05-20.57.59:268][226]LogModuleManager: Shutting down and abandoning module OpenXRHMD (104)
+[2022.10.05-20.57.59:268][226]LogModuleManager: Shutting down and abandoning module HairStrandsCore (102)
+[2022.10.05-20.57.59:268][226]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (100)
+[2022.10.05-20.57.59:268][226]LogModuleManager: Shutting down and abandoning module ChunkDownloader (98)
+[2022.10.05-20.57.59:293][226]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (96)
+[2022.10.05-20.57.59:293][226]LogModuleManager: Shutting down and abandoning module OnlineSubsystemUtils (94)
+[2022.10.05-20.57.59:300][226]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (92)
+[2022.10.05-20.57.59:300][226]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (90)
+[2022.10.05-20.57.59:302][226]LogModuleManager: Shutting down and abandoning module XMPP (85)
+[2022.10.05-20.57.59:317][226]LogModuleManager: Shutting down and abandoning module WebSockets (84)
+[2022.10.05-20.57.59:364][226]LogModuleManager: Shutting down and abandoning module HTTP (81)
+[2022.10.05-20.57.59:375][226]LogHttp: Warning: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2022.10.05-20.57.59:382][226]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BFD08B7A5-496D-D5BC-5175-A1AA59984167%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.0.3-20979098%2B%2B%2BUE5%2BRelease-5.0&UserID=86a933c5486dddf9dfd4a0b84179fea9%7Cf372258c75064063bdfd885c14a01c89%7C809b140f-cdfd-455a-9fb8-dd571221c1b4&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[1] status=Processing
+[2022.10.05-20.57.59:382][226]LogHttp: Warning: Cleaning up 1 outstanding Http requests.
+[2022.10.05-20.57.59:397][226]LogModuleManager: Shutting down and abandoning module SSL (80)
+[2022.10.05-20.57.59:401][226]LogModuleManager: Shutting down and abandoning module WmfMedia (76)
+[2022.10.05-20.57.59:420][226]LogModuleManager: Shutting down and abandoning module Media (75)
+[2022.10.05-20.57.59:422][226]LogModuleManager: Shutting down and abandoning module ExrReaderGpu (72)
+[2022.10.05-20.57.59:434][226]LogModuleManager: Shutting down and abandoning module NiagaraVertexFactories (70)
+[2022.10.05-20.57.59:434][226]LogModuleManager: Shutting down and abandoning module NiagaraShader (68)
+[2022.10.05-20.57.59:434][226]LogModuleManager: Shutting down and abandoning module ChaosCloth (66)
+[2022.10.05-20.57.59:458][226]LogModuleManager: Shutting down and abandoning module VariantManagerContent (64)
+[2022.10.05-20.57.59:458][226]LogModuleManager: Shutting down and abandoning module DatasmithContent (62)
+[2022.10.05-20.57.59:458][226]LogModuleManager: Shutting down and abandoning module PixWinPlugin (60)
+[2022.10.05-20.57.59:472][226]LogModuleManager: Shutting down and abandoning module AISupportModule (58)
+[2022.10.05-20.57.59:472][226]LogModuleManager: Shutting down and abandoning module DesktopPlatform (56)
+[2022.10.05-20.57.59:495][226]LogModuleManager: Shutting down and abandoning module PythonScriptPluginPreload (54)
+[2022.10.05-20.57.59:495][226]LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (52)
+[2022.10.05-20.57.59:510][226]LogModuleManager: Shutting down and abandoning module PlatformCryptoTypes (50)
+[2022.10.05-20.57.59:510][226]LogModuleManager: Shutting down and abandoning module PlatformCrypto (48)
+[2022.10.05-20.57.59:510][226]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (46)
+[2022.10.05-20.57.59:524][226]LogModuleManager: Shutting down and abandoning module SourceControl (45)
+[2022.10.05-20.57.59:537][226]LogModuleManager: Shutting down and abandoning module XGEController (42)
+[2022.10.05-20.57.59:579][226]LogModuleManager: Shutting down and abandoning module FastBuildController (40)
+[2022.10.05-20.57.59:587][226]LogModuleManager: Shutting down and abandoning module AnimationModifiers (38)
+[2022.10.05-20.57.59:606][226]LogModuleManager: Shutting down and abandoning module AudioEditor (36)
+[2022.10.05-20.57.59:627][226]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2022.10.05-20.57.59:687][226]LogModuleManager: Shutting down and abandoning module Virtualization (32)
+[2022.10.05-20.57.59:687][226]LogModuleManager: Shutting down and abandoning module MessageLog (31)
+[2022.10.05-20.57.59:687][226]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2022.10.05-20.57.59:699][226]LogModuleManager: Shutting down and abandoning module RenderCore (26)
+[2022.10.05-20.57.59:699][226]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2022.10.05-20.57.59:699][226]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2022.10.05-20.57.59:719][226]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (20)
+[2022.10.05-20.57.59:736][226]LogModuleManager: Shutting down and abandoning module Renderer (18)
+[2022.10.05-20.57.59:743][226]LogModuleManager: Shutting down and abandoning module Engine (16)
+[2022.10.05-20.57.59:750][226]LogModuleManager: Shutting down and abandoning module CoreUObject (14)
+[2022.10.05-20.57.59:760][226]LogModuleManager: Shutting down and abandoning module SandboxFile (12)
+[2022.10.05-20.57.59:771][226]LogModuleManager: Shutting down and abandoning module PakFile (10)
+[2022.10.05-20.57.59:771][226]LogModuleManager: Shutting down and abandoning module RSA (9)
+[2022.10.05-20.57.59:771][226]LogModuleManager: Shutting down and abandoning module NetworkFile (6)
+[2022.10.05-20.57.59:783][226]LogModuleManager: Shutting down and abandoning module StreamingFile (4)
+[2022.10.05-20.57.59:783][226]LogModuleManager: Shutting down and abandoning module StorageServerClient (2)
+[2022.10.05-20.58.00:007][226]LogD3D12RHI: Display: D3D12 ReleaseResources: 98 items to release
+[2022.10.05-20.58.00:007][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 1936 x 1056 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:008][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 1936 x 1056 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:008][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 1936 x 1056 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:009][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:009][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:009][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "Scene view state exposure readback", 16 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyCPUTexture", 5541848 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "HitProxyTexture", 1526 x 902 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BufferedRT", 1526 x 902 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer0", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer1", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:010][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "BackBuffer2", 512 x 256 x 1, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:012][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:012][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:013][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:013][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:013][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:013][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:014][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_0", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:015][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_0", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:016][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStatePosition_1", 1024 x 1024 x 1, Mips: 1, Format: 0x2, Flags: 0x1
+[2022.10.05-20.58.00:016][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleStateVelocity_1", 1024 x 1024 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:016][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:016][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleAttributes", 1024 x 1024 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:016][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "RT_VRSpectator", 1920 x 1080 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:018][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2D_2", 32 x 128 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:018][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1A, Flags: 0x4
+[2022.10.05-20.58.00:018][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:019][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:019][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:019][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:019][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:020][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x1B, Flags: 0x4
+[2022.10.05-20.58.00:020][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 50 x 5 x 5, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.10.05-20.58.00:020][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 16 x 16 x 16, Mips: 1, Format: 0x1E, Flags: 0x4
+[2022.10.05-20.58.00:020][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:020][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:021][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:021][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:021][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:021][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:022][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:022][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "TextureRenderTarget2D_3", 256 x 256 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:022][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "VolumetricLightmap", 16 x 16 x 16, Mips: 1, Format: 0x1E, Flags: 0x4
+[2022.10.05-20.58.00:022][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:022][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 64 x 64 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "FSlateTextureRenderTarget2DResource", 48 x 48 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:023][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "PrimitiveSceneDataTexture", 40 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x4
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ParticleCurveTexture", 512 x 512 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:024][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.10.05-20.58.00:025][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "CombineLUTs", 32 x 32 x 32, Mips: 1, Format: 0x18, Flags: 0x1
+[2022.10.05-20.58.00:025][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "EyeAdaptation", 1 x 1 x 1, Mips: 1, Format: 0x2, Flags: 0x5
+[2022.10.05-20.58.00:025][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 8192 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2022.10.05-20.58.00:025][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.10.05-20.58.00:026][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 8192 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2022.10.05-20.58.00:027][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "WholeSceneShadowmap", 8192 x 2048 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2022.10.05-20.58.00:027][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.10.05-20.58.00:028][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "PreShadowCacheDepthZ", 4096 x 4096 x 1, Mips: 1, Format: 0x35, Flags: 0x2
+[2022.10.05-20.58.00:028][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.10.05-20.58.00:028][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceFields.DistanceFieldBrickTexture", 1024 x 1024 x 8, Mips: 1, Format: 0x3D, Flags: 0x4
+[2022.10.05-20.58.00:029][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "HairLUT0", 1 x 1 x 1, Mips: 1, Format: 0x5A, Flags: 0x1
+[2022.10.05-20.58.00:029][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "Hair.LUT(DualScattering)", 64 x 64 x 16, Mips: 1, Format: 0xA, Flags: 0x4
+[2022.10.05-20.58.00:029][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "SkySHIrradiance", 9 x 1 x 1, Mips: 1, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:029][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap0", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ReflectionColorScratchCubemap1", 128 x 128 x 6, Mips: 8, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap0", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DiffuseIrradianceScratchCubemap1", 32 x 32 x 6, Mips: 6, Format: 0xA, Flags: 0x1
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.10.05-20.58.00:030][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "ShaderDraw.IndirectBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.10.05-20.58.00:031][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "InstanceCulling.DrawIndirectArgsBuffer", 65536 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.10.05-20.58.00:031][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "DistanceField.ObjectIndirectArguments", 65520 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x4
+[2022.10.05-20.58.00:031][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:031][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:031][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:032][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:032][226]LogD3D12RHI: Display: D3D12 ReleaseResources: "StagedRead", 262144 x 1 x 1, Mips: 1, Format: 0x0, Flags: 0x0
+[2022.10.05-20.58.00:192][226]LogD3D12RHI: ~FD3D12DynamicRHI
+[2022.10.05-20.58.00:198][226]LogExit: Exiting.
+[2022.10.05-20.58.00:218][226]Log file closed, 10/05/22 16:58:00
